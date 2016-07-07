@@ -6659,22 +6659,22 @@ return array(
   // src/applications/meta/application/PhabricatorApplicationsApplication.php:6
   // src/applications/meta/query/PhabricatorAppSearchEngine.php:7
   // src/applications/conduit/query/PhabricatorConduitSearchEngine.php:70
-  'Applications' => null,
+  'Applications' => '应用中心',
 
   // src/applications/config/controller/PhabricatorConfigListController.php:23
-  'Applications Configuration' => null,
+  'Applications Configuration' => '配置应用',
 
   // src/applications/config/option/PhabricatorCoreConfigOptions.php:209
-  'Applications application' => null,
+  'Applications application' => '应用中心的应用',
 
   // src/infrastructure/storage/management/workflow/PhabricatorStorageManagementStatusWorkflow.php:53
-  'Applied' => null,
+  'Applied' => '已应用',
 
   // src/applications/repository/management/PhabricatorRepositoryManagementMovePathsWorkflow.php:140
-  'Applied changes.' => null,
+  'Applied changes.' => '已应用修订',
 
   // src/applications/herald/controller/HeraldRuleViewController.php:128
-  'Applies To' => null,
+  'Applies To' => '应用到',
 
   // src/applications/legalpad/controller/LegalpadDocumentEditController.php:150
   'Applies only to documents individuals sign.' => null,
@@ -10740,10 +10740,10 @@ return array(
   'Configuration option \'%s\' has invalid value and was restored to the default: %s' => null,
 
   // src/applications/meta/query/PhabricatorAppSearchEngine.php:234
-  'Configure' => null,
+  'Configure' => '配置',
 
   // src/applications/auth/provider/PhabricatorOAuthAuthProvider.php:14
-  'Configure %s OAuth.' => null,
+  'Configure %s OAuth.' => '配置 %s 认证.',
 
   // src/applications/metamta/adapter/PhabricatorMailImplementationSendGridAdapter.php:82
   'Configure \'%s\' and \'%s\' to use SendGrid for mail delivery.' => null,
@@ -10788,7 +10788,7 @@ return array(
   'Configure Macro.' => null,
 
   // src/applications/config/option/PhabricatorMetaMTAConfigOptions.php:11
-  'Configure Mail.' => null,
+  'Configure Mail.' => '配置邮箱',
 
   // src/applications/config/option/PhabricatorMailgunConfigOptions.php:11
   'Configure Mailgun integration.' => null,
@@ -10829,6 +10829,8 @@ return array(
 
   // src/applications/config/option/PhabricatorClusterConfigOptions.php:11
   'Configure Phabricator to run on a cluster of hosts.' => null,
+
+  'Configure Phabricator' => '配置GuGuD',
 
   // src/applications/phame/editor/PhameBlogEditEngine.php:17
   'Configure Phame Blog Forms' => null,
@@ -11511,17 +11513,17 @@ return array(
   'Create Credential' => null,
 
   // src/applications/dashboard/application/PhabricatorDashboardApplication.php:14
-  'Create Custom Pages' => null,
+  'Create Custom Pages' => '个性化页面',
 
   // src/applications/dashboard/controller/PhabricatorDashboardListController.php:45
   // src/applications/dashboard/controller/PhabricatorDashboardEditController.php:51
   // src/applications/dashboard/controller/PhabricatorDashboardEditController.php:53
   // src/applications/dashboard/controller/PhabricatorDashboardEditController.php:56
   // src/applications/dashboard/controller/PhabricatorDashboardEditController.php:220
-  'Create Dashboard' => null,
+  'Create Dashboard' => '创建仪表盘',
 
   // src/applications/dashboard/controller/PhabricatorDashboardPanelEditController.php:357
-  'Create Dashboard Panel' => null,
+  'Create Dashboard Panel' => '创建仪表盘面板',
 
   // src/applications/almanac/editor/AlmanacDeviceEditEngine.php:37
   // src/applications/almanac/editor/AlmanacDeviceEditEngine.php:41
@@ -12568,39 +12570,39 @@ return array(
 
   // src/applications/dashboard/controller/PhabricatorDashboardEditController.php:175
   // src/applications/dashboard/phid/PhabricatorDashboardDashboardPHIDType.php:8
-  'Dashboard' => null,
+  'Dashboard' => '仪表盘',
 
   // src/applications/dashboard/controller/PhabricatorDashboardManageController.php:34
   // src/applications/dashboard/controller/PhabricatorDashboardViewController.php:28
   // src/applications/dashboard/query/PhabricatorDashboardSearchEngine.php:110
-  'Dashboard %d' => null,
+  'Dashboard %d' => '仪表盘 %d',
 
   // src/applications/dashboard/query/PhabricatorDashboardPanelSearchEngine.php:7
   // src/applications/dashboard/editor/PhabricatorDashboardPanelTransactionEditor.php:11
-  'Dashboard Panels' => null,
+  'Dashboard Panels' => '仪表盘的面板',
 
   // src/applications/dashboard/editor/PhabricatorDashboardTransactionEditor.php:158
-  'Dashboard name is required.' => null,
+  'Dashboard name is required.' => '需要仪表盘名称',
 
   // src/applications/dashboard/application/PhabricatorDashboardApplication.php:6
   // src/applications/dashboard/query/PhabricatorDashboardSearchEngine.php:7
   // src/applications/dashboard/editor/PhabricatorDashboardTransactionEditor.php:11
-  'Dashboards' => null,
+  'Dashboards' => '仪表盘',
 
   // src/applications/drydock/view/DrydockLogListView.php:90
   // src/applications/daemon/controller/PhabricatorWorkerTaskDetailController.php:156
   // src/applications/config/controller/PhabricatorConfigPurgeCacheController.php:47
-  'Data' => null,
+  'Data' => '数据',
 
   // src/applications/config/controller/PhabricatorConfigCacheController.php:103
-  'Data Cache' => null,
+  'Data Cache' => '数据缓存',
 
   // src/applications/harbormaster/management/HarbormasterManagementArchiveLogsWorkflow.php:140
   'Data Hash' => null,
 
   // src/applications/config/controller/PhabricatorConfigDatabaseStatusController.php:364
   // src/applications/config/controller/PhabricatorConfigDatabaseStatusController.php:575
-  'Data Type' => null,
+  'Data Type' => '数据类型',
 
   // src/applications/config/controller/PhabricatorConfigDatabaseIssueController.php:117
   // src/applications/config/controller/PhabricatorConfigController.php:20
@@ -12608,7 +12610,7 @@ return array(
   // src/applications/config/controller/PhabricatorConfigDatabaseStatusController.php:482
   // src/infrastructure/env/PhabricatorEnv.php:233
   // src/infrastructure/storage/management/workflow/PhabricatorStorageManagementWorkflow.php:151
-  'Database' => null,
+  'Database' => '数据库',
 
   // src/infrastructure/storage/management/workflow/PhabricatorStorageManagementProbeWorkflow.php:57
   'Database / Table' => null,
@@ -17698,7 +17700,7 @@ return array(
   'Get Almanac properties for the object.' => null,
 
   // src/applications/project/application/PhabricatorProjectApplication.php:10
-  'Get Organized' => '已加入的',
+  'Get Organized' => '已组织的',
 
   // src/applications/phragment/controller/PhragmentVersionController.php:106
   // src/applications/phragment/controller/PhragmentVersionController.php:117
@@ -31033,7 +31035,7 @@ return array(
   // src/applications/diffusion/controller/DiffusionBrowseController.php:66
   // src/applications/people/controller/PhabricatorPeopleLdapController.php:33
   // src/applications/conpherence/view/ConpherenceThreadListView.php:106
-  'Search' => null,
+  'Search' => '搜索',
 
   // src/applications/diffusion/conduit/DiffusionSearchQueryConduitAPIMethod.php:11
   'Search (grep) a repository at a specific path and commit.' => null,
