@@ -10976,27 +10976,27 @@ return array(
   'Confirm %s Account Link' => null,
 
   // src/applications/auth/controller/PhabricatorAuthConfirmLinkController.php:44
-  'Confirm Account Link' => null,
+  'Confirm Account Link' => '确认账号链接',
 
   // src/applications/people/controller/PhabricatorPeopleApproveController.php:57
-  'Confirm Approval' => null,
+  'Confirm Approval' => '确认批准',
 
   // src/applications/daemon/controller/PhabricatorDaemonBulkJobMonitorController.php:53
-  'Confirm Bulk Job' => null,
+  'Confirm Bulk Job' => '确认一批工作',
 
   // src/applications/auth/controller/PhabricatorAuthConfirmLinkController.php:72
-  'Confirm External Account Link' => null,
+  'Confirm External Account Link' => '确认外部账号链接',
 
   // src/applications/people/controller/PhabricatorPeopleInviteSendController.php:117
   // src/applications/people/controller/PhabricatorPeopleInviteSendController.php:167
-  'Confirm Invites' => null,
+  'Confirm Invites' => '确认邀请',
 
   // src/applications/auth/controller/PhabricatorAuthConfirmLinkController.php:67
-  'Confirm Link' => null,
+  'Confirm Link' => '确认链接',
 
   // src/applications/settings/panel/PhabricatorPasswordSettingsPanel.php:180
   // src/applications/auth/controller/PhabricatorAuthRegisterController.php:450
-  'Confirm Password' => null,
+  'Confirm Password' => '确认密码',
 
   // src/applications/diffusion/panel/DiffusionSetPasswordSettingsPanel.php:162
   'Confirm VCS Password' => null,
@@ -14557,17 +14557,17 @@ return array(
   'E%d: %s' => null,
 
   // src/applications/transactions/editor/PhabricatorApplicationTransactionEditor.php:2874
-  'EDIT DETAILS' => null,
+  'EDIT DETAILS' => '编辑详细',
 
   // src/applications/transactions/editor/PhabricatorApplicationTransactionEditor.php:2766
-  'EMAIL PREFERENCES' => null,
+  'EMAIL PREFERENCES' => '邮箱偏好',
 
   // src/applications/conpherence/editor/ConpherenceEditor.php:601
   'EMAIL PREFERENCES FOR THIS ROOM' => null,
 
   // src/applications/harbormaster/controller/HarbormasterPlanViewController.php:351
   // src/applications/harbormaster/controller/HarbormasterPlanViewController.php:418
-  'ERROR:' => null,
+  'ERROR:' => '错误：',
 
   // src/applications/aphlict/management/PhabricatorAphlictManagementWorkflow.php:329
   'ERROR: The PHP extension \'%s\' is not installed. You must install it to run Aphlict on this machine.' => null,
@@ -15455,18 +15455,18 @@ return array(
   // src/applications/auth/controller/PhabricatorAuthRegisterController.php:462
   // src/applications/people/controller/PhabricatorPeopleLdapController.php:171
   // src/applications/people/controller/PhabricatorPeopleNewController.php:160
-  'Email' => null,
+  'Email' => '邮箱',
 
   // src/applications/auth/query/PhabricatorAuthInviteSearchEngine.php:92
-  'Email Address' => null,
+  'Email Address' => '邮箱地址',
 
   // src/applications/settings/panel/PhabricatorEmailAddressesSettingsPanel.php:11
   // src/applications/settings/panel/PhabricatorEmailAddressesSettingsPanel.php:143
   // src/applications/people/controller/PhabricatorPeopleInviteSendController.php:181
-  'Email Addresses' => null,
+  'Email Addresses' => '邮箱地址',
 
   // src/applications/transactions/controller/PhabricatorApplicationTransactionCommentRawController.php:48
-  'Email Body Text' => null,
+  'Email Body Text' => '邮箱主体文本',
 
   // src/applications/diffusion/application/PhabricatorDiffusionApplication.php:163
   'Email Commands: Commits' => null,
@@ -17334,13 +17334,13 @@ return array(
   'Forcefully releasing a lease may interfere with the operation of the lease holder and trigger destruction of the underlying resource. It can not be undone.' => null,
 
   // src/applications/auth/controller/PhabricatorEmailLoginController.php:157
-  'Forgot Password' => null,
+  'Forgot Password' => '忘记密码',
 
   // src/applications/auth/controller/PhabricatorEmailLoginController.php:151
-  'Forgot Password / Email Login' => null,
+  'Forgot Password / Email Login' => '忘记密码 / 邮箱 登入',
 
   // src/applications/auth/provider/PhabricatorPasswordAuthProvider.php:192
-  'Forgot your password?' => null,
+  'Forgot your password?' => '忘记密码？',
 
   // src/applications/transactions/controller/PhabricatorEditEngineConfigurationDefaultsController.php:97
   // src/applications/transactions/editor/PhabricatorEditEngineConfigurationEditEngine.php:74
@@ -20924,24 +20924,24 @@ return array(
   // src/applications/auth/provider/PhabricatorLDAPAuthProvider.php:87
   // src/applications/auth/provider/PhabricatorPasswordAuthProvider.php:178
   // src/applications/people/storage/PhabricatorUserLog.php:54
-  'Login' => null,
+  'Login' => '登入',
 
   // src/applications/auth/controller/PhabricatorAuthOneTimeLoginController.php:196
-  'Login (%s)' => null,
+  'Login (%s)' => '登入 (%s)',
 
   // src/applications/auth/controller/PhabricatorAuthLoginController.php:230
-  'Login Failed' => null,
+  'Login Failed' => '登入失败',
 
   // src/applications/auth/controller/PhabricatorAuthOneTimeLoginController.php:72
   // src/applications/auth/controller/PhabricatorAuthOneTimeLoginController.php:90
   // src/applications/auth/controller/PhabricatorAuthValidateController.php:71
-  'Login Failure' => null,
+  'Login Failure' => '登入失败',
 
   // src/applications/auth/controller/PhabricatorAuthStartController.php:241
-  'Login Required' => null,
+  'Login Required' => '需要登入',
 
   // src/applications/conduit/controller/PhabricatorConduitConsoleController.php:50
-  'Login Required: This method requires authentication. You must log in before you can make calls to it.' => null,
+  'Login Required: This method requires authentication. You must log in before you can make calls to it.' => '此操作需要认证',
 
   // src/applications/auth/controller/PhabricatorAuthValidateController.php:56
   'Login cookie was set correctly, but your login session is not valid. Try clearing cookies and logging in again.' => null,
@@ -20949,24 +20949,24 @@ return array(
   // src/applications/uiexample/examples/PHUIButtonExample.php:169
   // src/applications/auth/provider/PhabricatorAuthProvider.php:417
   // src/applications/auth/provider/PhabricatorLDAPAuthProvider.php:84
-  'Login or Register' => null,
+  'Login or Register' => '登入或注册',
 
   // src/applications/auth/provider/PhabricatorLDAPAuthProvider.php:83
-  'Login or Register with LDAP' => null,
+  'Login or Register with LDAP' => 'LDAP登入或注册',
 
   // src/applications/ponder/view/PonderAddAnswerView.php:75
-  'Login to Answer' => null,
+  'Login to Answer' => '登入到回答',
 
   // src/applications/transactions/view/PhabricatorApplicationTransactionCommentView.php:161
-  'Login to Comment' => null,
+  'Login to Comment' => '登入到评论',
 
   // src/applications/conpherence/controller/ConpherenceViewController.php:173
-  'Login to Participate' => null,
+  'Login to Participate' => '登入参与',
 
   // src/applications/auth/controller/PhabricatorAuthStartController.php:201
   // src/applications/auth/controller/PhabricatorAuthOneTimeLoginController.php:173
   // src/applications/auth/provider/PhabricatorPasswordAuthProvider.php:177
-  'Login to Phabricator' => 'Login to gugud',
+  'Login to Phabricator' => '登入 gugud',
 
   // src/applications/diffusion/config/PhabricatorDiffusionConfigOptions.php:120
   'Login username for SSH connections to repositories.' => null,
@@ -20975,10 +20975,10 @@ return array(
   'Login validation is missing expected parameter ("%s").' => null,
 
   // src/applications/auth/provider/PhabricatorLDAPAuthProvider.php:86
-  'Login with LDAP' => null,
+  'Login with LDAP' => 'LDAP登入',
 
   // src/applications/oauthserver/application/PhabricatorOAuthServerApplication.php:26
-  'Login with Phabricator' => 'Login with gugud',
+  'Login with Phabricator' => 'gugud登入',
 
   // src/applications/auth/application/PhabricatorAuthApplication.php:26
   'Login/Registration' => '登入/注册',
@@ -21012,13 +21012,13 @@ return array(
   // src/applications/drydock/controller/DrydockLogController.php:98
   // src/applications/drydock/controller/DrydockLogController.php:112
   // src/applications/drydock/controller/DrydockController.php:96
-  'Logs' => null,
+  'Logs' => '日志',
 
   // src/applications/uiexample/examples/PHUITimelineExample.php:102
-  'Long Text Body' => null,
+  'Long Text Body' => '长文本',
 
   // src/applications/uiexample/examples/PHUITimelineExample.php:101
-  'Long Text Title' => null,
+  'Long Text Title' => '长标题',
 
   // src/applications/harbormaster/storage/build/HarbormasterBuildLintMessage.php:64
   'Long explanation of the lint message.' => null,
@@ -21037,7 +21037,7 @@ return array(
   'Lookup PHIDs by username. Obsoleted by "%s".' => null,
 
   // src/applications/macro/controller/PhabricatorMacroViewController.php:163
-  'Loop' => null,
+  'Loop' => '循环',
 
   // src/applications/uiexample/examples/JavelinReactorUIExample.php:10
   'Lots of code' => null,
@@ -21908,13 +21908,13 @@ return array(
   'Minimum allowed amount is %s.' => null,
 
   // src/applications/auth/controller/PhabricatorAuthRegisterController.php:455
-  'Minimum length of %d characters.' => null,
+  'Minimum length of %d characters.' => '至少 %d 字符.',
 
   // src/applications/search/engine/PhabricatorApplicationSearchEngine.php:1343
   'Minimum page size for API searches is 1, but this call specified %s.' => null,
 
   // src/applications/config/option/PhabricatorAuthenticationConfigOptions.php:93
-  'Minimum password length.' => null,
+  'Minimum password length.' => '最小密码长度',
 
   // src/applications/settings/panel/PhabricatorPasswordSettingsPanel.php:153
   'Minimum password length: %d characters.' => null,
@@ -25909,31 +25909,31 @@ return array(
   // src/applications/passphrase/credentialtype/PassphraseCredentialType.php:102
   // src/applications/passphrase/credentialtype/PassphrasePasswordCredentialType.php:18
   // src/applications/passphrase/credentialtype/PassphrasePasswordCredentialType.php:26
-  'Password' => null,
+  'Password' => '密码',
 
   // src/applications/auth/provider/PhabricatorPasswordAuthProvider.php:89
-  'Password Hash Algorithms' => null,
+  'Password Hash Algorithms' => '密码Hash算法',
 
   // src/applications/auth/tokentype/PhabricatorAuthPasswordResetTemporaryTokenType.php:9
-  'Password Reset' => null,
+  'Password Reset' => '重置密码',
 
   // src/applications/auth/tokentype/PhabricatorAuthPasswordResetTemporaryTokenType.php:14
-  'Password Reset Token' => null,
+  'Password Reset Token' => '重置会话密码',
 
   // src/applications/diffusion/panel/DiffusionSetPasswordSettingsPanel.php:267
-  'Password Updated' => null,
+  'Password Updated' => '密码已更新',
 
   // src/applications/diffusion/panel/DiffusionSetPasswordSettingsPanel.php:96
-  'Password and confirmation do not match.' => null,
+  'Password and confirmation do not match.' => '密码不匹配',
 
   // src/applications/auth/controller/PhabricatorAuthRegisterController.php:229
-  'Password and confirmation must match.' => null,
+  'Password and confirmation must match.' => '密码必须匹配',
 
   // src/applications/passphrase/credentialtype/PassphraseSSHPrivateKeyTextCredentialType.php:29
-  'Password for Key' => null,
+  'Password for Key' => '密钥',
 
   // src/applications/config/option/PhabricatorPHPMailerConfigOptions.php:57
-  'Password for SMTP.' => null,
+  'Password for SMTP.' => 'SMTP密码.',
 
   // src/infrastructure/util/password/PhabricatorPasswordHasher.php:172
   'Password hash \'%s\' produced a hash of length %d, but a maximum length of %d was expected.' => null,
@@ -25942,10 +25942,10 @@ return array(
   'Password is pathologically weak. This password is one of the most common passwords in use, and is extremely easy for attackers to guess. You must choose a stronger password.' => null,
 
   // src/applications/diffusion/panel/DiffusionSetPasswordSettingsPanel.php:66
-  'Password is required.' => null,
+  'Password is required.' => '需要密码',
 
   // src/applications/auth/controller/PhabricatorAuthRegisterController.php:233
-  'Password is too short (must be at least %d characters long).' => null,
+  'Password is too short (must be at least %d characters long).' => '密码太短 (至少需要 %d 字符).',
 
   // src/applications/auth/provider/PhabricatorPasswordAuthProvider.php:164
   'Password providers can\'t be linked.' => null,
@@ -26334,7 +26334,7 @@ return array(
   'Phabricator Mail' => 'gugud Mail',
 
   // src/applications/auth/controller/PhabricatorAuthRegisterController.php:498
-  'Phabricator Registration' => 'gugud Registration',
+  'Phabricator Registration' => 'gugud 用户注册',
 
   // src/applications/config/response/PhabricatorConfigResponse.php:24
   'Phabricator Setup Error' => 'gugud Setup Error',
@@ -26344,7 +26344,7 @@ return array(
 
   // src/applications/auth/controller/PhabricatorAuthRegisterController.php:421
   // src/applications/auth/controller/PhabricatorAuthRegisterController.php:428
-  'Phabricator Username' => 'gugud Username',
+  'Phabricator Username' => '用户名',
 
   // src/applications/policy/config/PhabricatorPolicyConfigOptions.php:40
   'Phabricator allows you to set the visibility of objects (like repositories and tasks) to \'Public\', which means **anyone on the internet can see them, without needing to log in or have an account**.\n\nThis is intended for open source projects. Many installs will never want to make anything public, so this policy is disabled by default. You can enable it here, which will let you set the policy for objects to \'Public\'.\n\nEnabling this setting will immediately open up some features, like the user directory. Anyone on the internet will be able to access these features.\n\nWith this setting disabled, the \'Public\' policy is not available, and the most open policy is \'All Users\' (which means users must have accounts and be logged in to view things).' => 'gugud allows you to set the visibility of objects (like repositories and tasks) to \'Public\', which means **anyone on the internet can see them, without needing to log in or have an account**.\n\nThis is intended for open source projects. Many installs will never want to make anything public, so this policy is disabled by default. You can enable it here, which will let you set the policy for objects to \'Public\'.\n\nEnabling this setting will immediately open up some features, like the user directory. Anyone on the internet will be able to access these features.\n\nWith this setting disabled, the \'Public\' policy is not available, and the most open policy is \'All Users\' (which means users must have accounts and be logged in to view things).',
@@ -28306,11 +28306,11 @@ return array(
   // src/applications/people/controller/PhabricatorPeopleLdapController.php:172
   // src/applications/people/controller/PhabricatorPeopleNewController.php:154
   // src/applications/people/customfield/PhabricatorUserRealNameField.php:13
-  'Real Name' => null,
+  'Real Name' => '真实姓名',
 
   // src/applications/auth/controller/PhabricatorAuthRegisterController.php:268
   // src/applications/people/controller/PhabricatorPeopleNewController.php:68
-  'Real name is required.' => null,
+  'Real name is required.' => '必须填写真实姓名',
 
   // src/applications/notification/application/PhabricatorNotificationsApplication.php:14
   'Real-Time Updates and Alerts' => null,
@@ -28853,13 +28853,13 @@ return array(
 
   // src/applications/auth/engine/PhabricatorAuthInviteEngine.php:114
   // src/applications/auth/provider/PhabricatorPasswordAuthProvider.php:183
-  'Register New Account' => null,
+  'Register New Account' => '注册新账号',
 
   // src/applications/auth/controller/PhabricatorAuthRegisterController.php:484
-  'Register Phabricator Account' => null,
+  'Register Phabricator Account' => '注册GuGuD账号',
 
   // src/applications/auth/provider/PhabricatorPasswordAuthProvider.php:154
-  'Register an Account' => null,
+  'Register an Account' => '注册一个账号',
 
   // src/applications/almanac/management/AlmanacManagementRegisterWorkflow.php:9
   'Register this host as an Almanac device.' => null,
@@ -28871,7 +28871,7 @@ return array(
   'Registered Event Listeners' => null,
 
   // src/applications/auth/controller/PhabricatorAuthRegisterController.php:613
-  'Registration Failed' => null,
+  'Registration Failed' => '注册失败',
 
   // src/infrastructure/customfield/parser/PhabricatorCustomFieldMonogramParser.php:41
   'Regular expression "%s" is invalid!' => null,
@@ -29866,29 +29866,29 @@ return array(
   // src/applications/phame/editor/PhamePostEditor.php:125
   // src/infrastructure/customfield/standard/PhabricatorStandardCustomField.php:362
   // src/infrastructure/customfield/standard/PhabricatorStandardCustomField.php:367
-  'Required' => null,
+  'Required' => '必须',
 
   // src/applications/legalpad/herald/LegalpadRequireSignatureHeraldAction.php:102
-  'Required %s signature(s): %s.' => null,
+  'Required %s signature(s): %s.' => '必须 %s 签名(s): %s.' ,
 
   // src/applications/harbormaster/controller/HarbormasterPlanViewController.php:303
-  'Required Input' => null,
+  'Required Input' => '必须输入',
 
   // src/applications/config/check/PhabricatorExtensionsSetupCheck.php:46
   'Required PHP extensions are not installed.' => null,
 
   // src/applications/legalpad/herald/LegalpadRequireSignatureHeraldAction.php:88
-  'Required Signature' => null,
+  'Required Signature' => '必须签名',
 
   // src/applications/differential/customfield/DifferentialRequiredSignaturesField.php:11
-  'Required Signatures' => null,
+  'Required Signatures' => '必须签名',
 
   // src/applications/releeph/field/specification/ReleephSeverityFieldSpecification.php:46
   'Required for the currently rolling release.' => null,
 
   // src/applications/oauthserver/controller/PhabricatorOAuthServerTokenController.php:46
   // src/applications/oauthserver/controller/PhabricatorOAuthServerTokenController.php:55
-  'Required parameter %s missing.' => null,
+  'Required parameter %s missing.' => '所需参数 %s 缺失',
 
   // src/applications/oauthserver/controller/PhabricatorOAuthServerAuthController.php:29
   'Required parameter %s was not present in the request.' => null,
@@ -29897,7 +29897,7 @@ return array(
   'Required parameter `parentPanelPHIDs` is not present in request.' => null,
 
   // src/applications/oauthserver/controller/PhabricatorOAuthServerTokenController.php:38
-  'Required parameter code missing.' => null,
+  'Required parameter code missing.' => '所需参数代码缺失',
 
   // src/applications/oauthserver/controller/PhabricatorOAuthServerAuthController.php:101
   'Required request parameter %s is missing.' => null,
@@ -29912,25 +29912,25 @@ return array(
   'Rescind Token' => null,
 
   // src/applications/people/icon/PhabricatorPeopleIconSet.php:120
-  'Research' => null,
+  'Research' => '搜索',
 
   // src/applications/almanac/controller/AlmanacController.php:92
-  'Reset' => null,
+  'Reset' => '重置',
 
   // src/applications/auth/management/PhabricatorAuthManagementUnlimitWorkflow.php:62
-  'Reset %s action(s).' => null,
+  'Reset %s action(s).' => '重置 %s 行动(s).',
 
   // src/applications/settings/panel/PhabricatorHomePreferencesSettingsPanel.php:51
   // src/applications/settings/panel/PhabricatorHomePreferencesSettingsPanel.php:55
-  'Reset Applications' => null,
+  'Reset Applications' => '重置应用',
 
   // src/applications/auth/controller/PhabricatorEmailLoginController.php:146
   // src/applications/people/storage/PhabricatorUserLog.php:61
-  'Reset Password' => null,
+  'Reset Password' => '重置密码',
 
   // src/applications/almanac/controller/AlmanacPropertyDeleteController.php:27
   // src/applications/almanac/controller/AlmanacPropertyDeleteController.php:31
-  'Reset Property' => null,
+  'Reset Property' => '重置属性',
 
   // src/applications/auth/management/PhabricatorAuthManagementUnlimitWorkflow.php:19
   'Reset action counters for this user.' => null,
@@ -29939,7 +29939,7 @@ return array(
   'Reset action counters so a user can continue taking rate-limited actions.' => null,
 
   // src/applications/auth/management/PhabricatorAuthManagementUnlimitWorkflow.php:23
-  'Reset all counters.' => null,
+  'Reset all counters.' => '重置所有账号。',
 
   // src/applications/fact/management/PhabricatorFactManagementCursorsWorkflow.php:19
   'Reset cursor __cursor__.' => null,
@@ -40616,20 +40616,20 @@ return array(
   'Username is required.' => null,
 
   // src/applications/auth/provider/PhabricatorPasswordAuthProvider.php:230
-  'Username or Email' => null,
+  'Username or Email' => '用户名或邮箱',
 
   // src/applications/auth/provider/PhabricatorLDAPAuthProvider.php:105
   // src/applications/auth/provider/PhabricatorPasswordAuthProvider.php:218
-  'Username or password are incorrect.' => null,
+  'Username or password are incorrect.' => '用户名或密码不正确',
 
   // src/applications/conduit/parametertype/ConduitUserParameterType.php:34
-  'Username.' => null,
+  'Username.' => '用户名',
 
   // src/applications/auth/provider/PhabricatorPasswordAuthProvider.php:8
-  'Username/Password' => null,
+  'Username/Password' => '用户名/密码',
 
   // src/applications/people/query/PhabricatorPeopleSearchEngine.php:23
-  'Usernames' => null,
+  'Usernames' => '用户名',
 
   // src/applications/people/storage/PhabricatorUser.php:772
   'Usernames must contain only numbers, letters, period, underscore and hyphen, and can not end with a period. They must have no more than %d characters.' => null,
@@ -40637,7 +40637,7 @@ return array(
   // src/applications/people/query/PhabricatorPeopleLogSearchEngine.php:119
   // src/applications/people/query/PhabricatorPeopleSearchEngine.php:7
   // src/applications/phrequent/query/PhrequentSearchEngine.php:68
-  'Users' => null,
+  'Users' => '用户',
 
   // src/applications/owners/editor/PhabricatorOwnersPackageEditEngine.php:104
   'Users and projects which own the package.' => null,
@@ -43685,7 +43685,7 @@ return array(
   'done.' => null,
 
   // src/applications/people/controller/PhabricatorPeopleInviteSendController.php:182
-  'emails' => null,
+  'emails' => '邮件',
 
   // src/applications/herald/config/HeraldRepetitionPolicyConfig.php:15
   'every time' => null,
