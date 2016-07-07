@@ -10623,7 +10623,7 @@ return array(
   // src/applications/config/controller/PhabricatorConfigEditController.php:244
   // src/applications/config/controller/PhabricatorConfigGroupController.php:24
   // src/applications/config/phid/PhabricatorConfigConfigPHIDType.php:8
-  'Config' => '设置',
+  'Config' => '配置',
 
   // src/applications/config/check/PhabricatorInvalidConfigSetupCheck.php:21
   'Config \'%s\' Invalid' => null,
