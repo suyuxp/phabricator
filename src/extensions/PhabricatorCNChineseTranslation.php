@@ -21353,27 +21353,27 @@ return array(
   // src/applications/dashboard/query/PhabricatorDashboardSearchEngine.php:155
   // src/applications/people/controller/PhabricatorPeopleProfileManageController.php:54
   // src/applications/people/profilepanel/PhabricatorPeopleManageProfilePanel.php:13
-  'Manage' => null,
+  'Manage' => '管理',
 
   // src/applications/phame/controller/blog/PhameBlogViewController.php:161
   // src/applications/phame/controller/blog/PhameBlogManageController.php:71
-  'Manage Blog' => null,
+  'Manage Blog' => '管理博客',
 
   // src/applications/phame/controller/post/PhamePostListController.php:30
-  'Manage Blogs' => null,
+  'Manage Blogs' => '管理博客',
 
   // src/applications/project/controller/PhabricatorProjectBoardViewController.php:708
-  'Manage Board' => null,
+  'Manage Board' => '管理面板',
 
   // src/applications/harbormaster/controller/HarbormasterBuildableListController.php:18
-  'Manage Build Plans' => null,
+  'Manage Build Plans' => '管理构建计划',
 
   // src/applications/daemon/controller/PhabricatorDaemonController.php:19
   'Manage Bulk Jobs' => null,
 
   // src/applications/dashboard/controller/PhabricatorDashboardViewController.php:52
   // src/applications/dashboard/controller/PhabricatorDashboardViewController.php:70
-  'Manage Dashboard' => null,
+  'Manage Dashboard' => '管理仪表盘',
 
   // src/applications/nuance/controller/NuanceItemViewController.php:68
   'Manage Item' => null,
@@ -21388,16 +21388,16 @@ return array(
   'Manage Nuance sources.' => null,
 
   // src/applications/dashboard/controller/PhabricatorDashboardListController.php:32
-  'Manage Panels' => null,
+  'Manage Panels' => '管理面板',
 
   // src/applications/diffusion/view/DiffusionCloneURIView.php:96
-  'Manage Password' => null,
+  'Manage Password' => '管理密码',
 
   // src/applications/daemon/application/PhabricatorDaemonsApplication.php:10
   'Manage Phabricator Daemons' => null,
 
   // src/applications/project/profilepanel/PhabricatorProjectManageProfilePanel.php:9
-  'Manage Project' => null,
+  'Manage Project' => '管理项目',
 
   // src/applications/diffusion/controller/DiffusionRepositoryController.php:256
   'Manage Repository' => null,
@@ -21407,7 +21407,7 @@ return array(
 
   // src/applications/people/controller/PhabricatorPeopleProfileManageController.php:69
   // src/applications/people/profilepanel/PhabricatorPeopleManageProfilePanel.php:9
-  'Manage User' => null,
+  'Manage User' => '管理用户',
 
   // src/applications/project/controller/PhabricatorProjectBoardManageController.php:50
   'Manage Workboard' => null,
@@ -21639,16 +21639,16 @@ return array(
   // src/applications/project/view/PhabricatorProjectMemberListView.php:31
   // src/applications/project/query/PhabricatorProjectSearchEngine.php:26
   // src/applications/project/profilepanel/PhabricatorProjectMembersProfilePanel.php:13
-  'Members' => null,
+  'Members' => '成员',
 
   // src/applications/policy/controller/PhabricatorPolicyEditController.php:332
-  'Members Of' => null,
+  'Members Of' => '成员',
 
   // src/applications/project/controller/PhabricatorProjectMembersViewController.php:22
-  'Members and Watchers' => null,
+  'Members and Watchers' => '围观成员',
 
   // src/applications/policy/constants/PhabricatorPolicyType.php:35
-  'Members of Project...' => null,
+  'Members of Project...' => '项目成员...',
 
   // src/applications/project/storage/PhabricatorProject.php:160
   'Members of a project can always view it.' => null,
@@ -21670,10 +21670,10 @@ return array(
 
   // src/applications/project/typeahead/PhabricatorProjectMembersDatasource.php:46
   // src/applications/project/typeahead/PhabricatorProjectMembersDatasource.php:97
-  'Members: %s' => null,
+  'Members: %s' => '成员: %s',
 
   // src/applications/project/typeahead/PhabricatorProjectMembersDatasource.php:27
-  'Members: ...' => null,
+  'Members: ...' => '成员: ...',
 
   // src/applications/project/typeahead/PhabricatorProjectMembersDatasource.php:91
   'Members: Invalid Project' => null,
@@ -33728,10 +33728,10 @@ return array(
   // src/applications/project/controller/PhabricatorProjectEditController.php:104
   // src/applications/project/controller/PhabricatorProjectProfileController.php:285
   // src/applications/project/profilepanel/PhabricatorProjectSubprojectsProfilePanel.php:13
-  'Subprojects' => null,
+  'Subprojects' => '子项目',
 
   // src/applications/project/controller/PhabricatorProjectSubprojectsController.php:102
-  'Subprojects and Milestones' => null,
+  'Subprojects and Milestones' => '子项目和里程碑',
 
   // src/applications/project/controller/PhabricatorProjectSubprojectsController.php:135
   'Subprojects and milestones are only partially implemented.' => null,
@@ -41278,13 +41278,13 @@ return array(
   'WHY DID I GET THIS EMAIL?' => null,
 
   // src/applications/maniphest/editor/ManiphestTransactionEditor.php:388
-  'WORKBOARD' => null,
+  'WORKBOARD' => '工作面板',
 
   // src/applications/auth/controller/PhabricatorAuthNeedsApprovalController.php:32
-  'Wait For Approval' => null,
+  'Wait For Approval' => '待批准',
 
   // src/applications/harbormaster/customfield/HarbormasterBuildStepCoreCustomField.php:47
-  'Wait For Message' => null,
+  'Wait For Message' => '待留言',
 
   // src/applications/auth/controller/PhabricatorAuthNeedsApprovalController.php:29
   // src/applications/system/controller/PhabricatorSystemReadOnlyController.php:33
@@ -41292,7 +41292,7 @@ return array(
   'Wait Patiently' => null,
 
   // src/applications/auth/controller/PhabricatorAuthNeedsApprovalController.php:27
-  'Wait for Approval' => null,
+  'Wait for Approval' => '待批准',
 
   // src/applications/harbormaster/step/HarbormasterWaitForPreviousBuildStepImplementation.php:7
   'Wait for Previous Commits to Build' => null,
@@ -41304,7 +41304,7 @@ return array(
   // src/applications/daemon/controller/PhabricatorDaemonLogViewController.php:49
   // src/applications/daemon/view/PhabricatorDaemonLogListView.php:56
   // src/infrastructure/daemon/workers/storage/PhabricatorWorkerBulkJob.php:125
-  'Waiting' => null,
+  'Waiting' => '等待中',
 
   // src/applications/drydock/logtype/DrydockLeaseActivationYieldLogType.php:19
   'Waiting %s second(s) for lease to activate.' => null,
@@ -41801,23 +41801,23 @@ return array(
   // src/applications/project/controller/PhabricatorProjectBoardBackgroundController.php:56
   // src/applications/project/controller/PhabricatorProjectColumnDetailController.php:51
   // src/applications/project/profilepanel/PhabricatorProjectWorkboardProfilePanel.php:13
-  'Workboard' => null,
+  'Workboard' => '工作面板',
 
   // src/applications/project/editor/PhabricatorProjectColumnTransactionEditor.php:11
-  'Workboard Columns' => null,
+  'Workboard Columns' => '工作面板列',
 
   // src/applications/project/controller/PhabricatorProjectBoardViewController.php:1048
   // src/applications/project/controller/PhabricatorProjectBoardViewController.php:1066
-  'Workboard Disabled' => null,
+  'Workboard Disabled' => '工作面板不可用',
 
   // src/applications/project/controller/PhabricatorProjectBoardManageController.php:72
-  'Workboard: %s' => null,
+  'Workboard: %s' => '工作面板: %s',
 
   // src/applications/files/transform/PhabricatorFileThumbnailTransform.php:78
-  'Workcard (526px)' => null,
+  'Workcard (526px)' => '工作卡 (526px)',
 
   // src/infrastructure/daemon/workers/engineextension/PhabricatorWorkerDestructionEngineExtension.php:9
-  'Worker Tasks' => null,
+  'Worker Tasks' => '工作任务',
 
   // src/infrastructure/daemon/workers/bulk/PhabricatorWorkerBulkJobWorker.php:67
   'Worker has invalid actor PHID ("%s").' => null,
@@ -41835,7 +41835,7 @@ return array(
   'Worker has no task ID.' => null,
 
   // src/applications/drydock/storage/DrydockRepositoryOperation.php:116
-  'Working' => null,
+  'Working' => '工作中',
 
   // src/applications/drydock/blueprint/DrydockWorkingCopyBlueprintImplementation.php:15
   // src/applications/drydock/blueprint/DrydockWorkingCopyBlueprintImplementation.php:227
@@ -43787,19 +43787,19 @@ return array(
   'matches:' => null,
 
   // src/applications/project/policyrule/PhabricatorProjectMembersPolicyRule.php:8
-  'members of project' => null,
+  'members of project' => '项目成员',
 
   // src/applications/project/policyrule/PhabricatorProjectsPolicyRule.php:9
-  'members of projects' => null,
+  'members of projects' => '项目成员',
 
   // src/applications/people/controller/PhabricatorPeopleInviteSendController.php:193
-  'message' => null,
+  'message' => '消息',
 
   // src/view/form/control/PhabricatorRemarkupControl.php:60
   'monospaced text' => null,
 
   // src/view/form/control/PhabricatorRemarkupControl.php:64
-  'name' => null,
+  'name' => '姓名',
 
   // src/applications/phortune/controller/PhortunePaymentMethodCreateController.php:99
   // src/applications/phortune/controller/PhortunePaymentMethodCreateController.php:232
