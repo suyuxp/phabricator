@@ -7060,30 +7060,30 @@ return array(
   'Assigned Task' => null,
 
   // src/applications/home/controller/PhabricatorHomeMainController.php:274
-  'Assigned Tasks' => null,
+  'Assigned Tasks' => '已指派任务',
 
   // src/applications/maniphest/controller/ManiphestTaskDetailController.php:242
   // src/applications/maniphest/query/ManiphestTaskSearchEngine.php:49
   // src/applications/maniphest/engineextension/ManiphestHovercardEngineExtension.php:38
   // src/applications/maniphest/editor/ManiphestEditEngine.php:180
-  'Assigned To' => null,
+  'Assigned To' => '已指派给',
 
   // src/applications/maniphest/herald/ManiphestTaskAssignHeraldAction.php:68
-  'Assigned task to: %s.' => null,
+  'Assigned task to: %s.' => '已指派任务给: %s.',
 
   // src/applications/uiexample/examples/PHUIHovercardUIExample.php:47
-  'Assigned to' => null,
+  'Assigned to' => '已指派给',
 
   // src/applications/search/relationship/PhabricatorObjectRelationshipSource.php:41
   // src/applications/project/controller/PhabricatorProjectBoardViewController.php:595
-  'Assigned to Me' => null,
+  'Assigned to Me' => '已指派给我',
 
   // src/applications/nuance/github/NuanceGitHubRawEvent.php:296
   // src/applications/maniphest/view/ManiphestTaskListView.php:69
-  'Assigned: %s' => null,
+  'Assigned: %s' => '已指派: %s',
 
   // src/applications/maniphest/herald/ManiphestTaskAssigneeHeraldField.php:9
-  'Assignee' => null,
+  'Assignee' => '受托人',
 
   // src/applications/differential/customfield/DifferentialRepositoryField.php:15
   'Associates a revision with a repository.' => null,
@@ -7272,25 +7272,25 @@ return array(
   'Auditing' => null,
 
   // src/applications/audit/editor/PhabricatorAuditEditor.php:710
-  'Auditor' => null,
+  'Auditor' => '检阅员',
 
   // src/applications/diffusion/controller/DiffusionCommitController.php:480
   // src/applications/differential/customfield/DifferentialAuditorsField.php:11
   // src/applications/audit/query/PhabricatorCommitSearchEngine.php:54
-  'Auditors' => null,
+  'Auditors' => '检阅员',
 
   // src/applications/audit/view/PhabricatorAuditListView.php:168
-  'Auditors: %s' => null,
+  'Auditors: %s' => '检阅员: %s',
 
   // src/applications/audit/editor/PhabricatorAuditEditor.php:49
   // src/applications/home/controller/PhabricatorHomeMainController.php:362
-  'Audits' => null,
+  'Audits' => '检阅',
 
   // src/applications/auth/application/PhabricatorAuthApplication.php:22
   'Auth' => '认证信息',
 
   // src/applications/config/check/PhabricatorAuthSetupCheck.php:37
-  'Auth Application' => null,
+  'Auth Application' => '认证应用',
 
   // src/applications/auth/phid/PhabricatorAuthAuthFactorPHIDType.php:8
   'Auth Factor' => null,
@@ -22604,10 +22604,10 @@ return array(
   // src/applications/uiexample/examples/PHUIInfoPanelExample.php:94
   // src/applications/maniphest/config/PhabricatorManiphestConfigOptions.php:32
   // src/applications/home/controller/PhabricatorHomeMainController.php:195
-  'Needs Triage' => null,
+  'Needs Triage' => '需要分类',
 
   // src/applications/releeph/field/specification/ReleephSeverityFieldSpecification.php:45
-  'Needs merging and fixing right now.' => null,
+  'Needs merging and fixing right now.' => '现在需要合并固定',
 
   // src/applications/differential/conduit/DifferentialCreateInlineConduitAPIMethod.php:37
   'Neither revision ID nor diff ID was provided.' => null,
@@ -22617,7 +22617,7 @@ return array(
   // src/applications/almanac/view/AlmanacInterfaceTableView.php:70
   // src/applications/almanac/view/AlmanacBindingTableView.php:95
   // src/applications/almanac/editor/AlmanacNetworkEditEngine.php:57
-  'Network' => null,
+  'Network' => '网络',
 
   // src/applications/almanac/query/AlmanacNetworkSearchEngine.php:76
   // src/applications/almanac/phid/AlmanacNetworkPHIDType.php:38
@@ -22741,7 +22741,7 @@ return array(
   'New User "%s" Awaiting Approval' => null,
 
   // src/applications/people/controller/PhabricatorPeopleRenameController.php:89
-  'New Username' => null,
+  'New Username' => '新用户名',
 
   // src/applications/people/storage/PhabricatorUser.php:758
   'New Username: %s' => null,
@@ -27132,10 +27132,10 @@ return array(
 
   // src/applications/audit/query/PhabricatorCommitSearchEngine.php:84
   // src/applications/home/controller/PhabricatorHomeMainController.php:401
-  'Problem Commits' => null,
+  'Problem Commits' => '问题提交',
 
   // src/applications/diffusion/controller/DiffusionLintController.php:128
-  'Problems' => null,
+  'Problems' => '问题',
 
   // src/infrastructure/cluster/PhabricatorClusterExceptionHandler.php:32
   'Proceed With Caution' => null,
@@ -30444,19 +30444,19 @@ return array(
   'Revision was successfully landed.' => null,
 
   // src/applications/people/engine/PhabricatorPeopleProfilePanelEngine.php:57
-  'Revisions' => null,
+  'Revisions' => '修正',
 
   // src/applications/home/controller/PhabricatorHomeMainController.php:219
-  'Revisions Waiting on You' => null,
+  'Revisions Waiting on You' => '等您修正',
 
   // src/applications/settings/panel/PhabricatorTokensSettingsPanel.php:36
   // src/applications/settings/panel/PhabricatorTokensSettingsPanel.php:43
   // src/applications/auth/controller/PhabricatorAuthRevokeTokenController.php:70
   // src/applications/oauthserver/panel/PhabricatorOAuthServerAuthorizationsSettingsPanel.php:93
-  'Revoke' => null,
+  'Revoke' => '撤回',
 
   // src/applications/settings/panel/PhabricatorTokensSettingsPanel.php:75
-  'Revoke All' => null,
+  'Revoke All' => '全部撤回',
 
   // src/applications/oauthserver/panel/PhabricatorOAuthServerAuthorizationsSettingsPanel.php:69
   'Revoke Authorization' => null,
@@ -30506,25 +30506,25 @@ return array(
   'Roles' => null,
 
   // src/applications/conpherence/controller/ConpherenceController.php:58
-  'Room' => null,
+  'Room' => '房间',
 
   // src/applications/conpherence/view/ConpherenceDurableColumnView.php:333
   // src/applications/conpherence/view/ConpherenceDurableColumnView.php:339
-  'Room Actions' => null,
+  'Room Actions' => '房间行为',
 
   // src/applications/conpherence/policyrule/ConpherenceThreadMembersPolicyRule.php:11
-  'Room Participants' => null,
+  'Room Participants' => '房间参与者',
 
   // src/applications/conpherence/conduit/ConpherenceUpdateThreadConduitAPIMethod.php:34
   'Room does not exist or logged in user can not see it.' => null,
 
   // src/applications/conpherence/editor/ConpherenceEditor.php:649
-  'Room title is required.' => null,
+  'Room title is required.' => '需要房间标题',
 
   // src/applications/conpherence/controller/ConpherenceNotificationPanelController.php:86
   // src/applications/conpherence/view/ConpherenceThreadListView.php:100
   // src/applications/conpherence/query/ConpherenceThreadSearchEngine.php:7
-  'Rooms' => null,
+  'Rooms' => '房间',
 
   // src/applications/metamta/query/PhabricatorMetaMTAActor.php:106
   // src/applications/metamta/constants/PhabricatorMailRoutingRule.php:27
@@ -34229,13 +34229,13 @@ return array(
   'Tasks' => null,
 
   // src/applications/maniphest/application/PhabricatorManiphestApplication.php:10
-  'Tasks and Bugs' => null,
+  'Tasks and Bugs' => '任务与错误',
 
   // src/infrastructure/daemon/workers/__tests__/PhabricatorWorkerTestCase.php:46
   'Tasks not previously leased should lease before previously leased tasks.' => null,
 
   // src/applications/maniphest/relationship/ManiphestTaskMergeInRelationship.php:33
-  'Tasks to Close and Merge' => null,
+  'Tasks to Close and Merge' => '任务关闭与合并',
 
   // src/infrastructure/daemon/workers/__tests__/PhabricatorWorkerTestCase.php:161
   'Tasks which expired earlier should lease first, all else being equal.' => null,
@@ -39102,17 +39102,17 @@ return array(
   // src/applications/uiexample/examples/PHUIInfoPanelExample.php:76
   // src/applications/uiexample/examples/PHUIInfoPanelExample.php:86
   // src/applications/uiexample/examples/PHUIInfoPanelExample.php:95
-  'Unbreak Now' => null,
+  'Unbreak Now' => '现在缝合',
 
   // src/applications/maniphest/config/PhabricatorManiphestConfigOptions.php:26
   // src/applications/home/controller/PhabricatorHomeMainController.php:151
-  'Unbreak Now!' => null,
+  'Unbreak Now!' => '现在缝合!',
 
   // src/applications/maniphest/config/PhabricatorManiphestConfigOptions.php:27
-  'Unbreak!' => null,
+  'Unbreak!' => '缝合!',
 
   // src/applications/badges/constants/PhabricatorBadgesQuality.php:48
-  'Uncommon' => null,
+  'Uncommon' => '不常见',
 
   // src/applications/diffusion/editor/DiffusionRepositoryEditEngine.php:242
   'Underlying repository version control system.' => null,
