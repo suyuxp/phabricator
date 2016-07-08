@@ -8736,7 +8736,7 @@ return array(
   'COMMIT' => null,
 
   // src/applications/repository/worker/PhabricatorRepositoryPushMailWorker.php:95
-  'COMMITS' => null,
+  'COMMITS' => '提交',
 
   // src/applications/releeph/differential/DifferentialReleephRequestFieldSpecification.php:370
   'CONFUSION: commit %s in %s contains %d path change(s) that were part of a Releeph branch, but also has %d path change(s) not part of a Releeph branch!' => null,
@@ -25118,23 +25118,23 @@ return array(
   // src/applications/maniphest/controller/ManiphestReportController.php:26
   // src/applications/maniphest/query/ManiphestTaskSearchEngine.php:240
   // src/applications/people/engine/PhabricatorPeopleProfilePanelEngine.php:41
-  'Open Tasks' => null,
+  'Open Tasks' => '开放的任务',
 
   // src/applications/maniphest/controller/ManiphestReportController.php:469
-  'Open Tasks by Project and Priority (%s)' => null,
+  'Open Tasks by Project and Priority (%s)' => '开放的任务根据项目和优先级 (%s)',
 
   // src/applications/maniphest/controller/ManiphestReportController.php:437
-  'Open Tasks by User and Priority (%s)' => null,
+  'Open Tasks by User and Priority (%s)' => '开放的任务根据用户和优先级 (%s)',
 
   // src/applications/releeph/query/ReleephBranchSearchEngine.php:91
-  'Open and Closed Branches' => null,
+  'Open and Closed Branches' => '开放和关闭的分支',
 
   // src/applications/diffusion/controller/DiffusionBrowseController.php:948
   // src/applications/differential/view/DifferentialChangesetListView.php:145
   'Open in Editor' => null,
 
   // src/applications/maniphest/controller/ManiphestReportController.php:232
-  'Opened' => null,
+  'Opened' => '已开放',
 
   // src/applications/drydock/view/DrydockRepositoryOperationStatusView.php:71
   'Operation %d' => null,
@@ -28586,7 +28586,7 @@ return array(
   // src/applications/project/controller/PhabricatorProjectProfileController.php:86
   // src/applications/dashboard/controller/PhabricatorDashboardEditController.php:260
   // src/applications/people/controller/PhabricatorPeopleProfileViewController.php:56
-  'Recent Activity' => null,
+  'Recent Activity' => '最新活动',
 
   // src/applications/phortune/controller/PhortuneAccountViewController.php:320
   'Recent Charges' => null,
@@ -28594,26 +28594,26 @@ return array(
   // src/applications/owners/controller/PhabricatorOwnersDetailController.php:113
   // src/applications/diffusion/controller/DiffusionRepositoryController.php:551
   // src/applications/dashboard/controller/PhabricatorDashboardEditController.php:282
-  'Recent Commits' => null,
+  'Recent Commits' => '最新提交',
 
   // src/applications/phortune/controller/PhortuneAccountViewController.php:278
   'Recent Orders' => null,
 
   // src/applications/phame/controller/PhameHomeController.php:75
   // src/applications/phame/controller/PhameHomeController.php:84
-  'Recent Posts' => null,
+  'Recent Posts' => '最新公布',
 
   // src/applications/ponder/query/PonderQuestionSearchEngine.php:60
-  'Recent Questions' => null,
+  'Recent Questions' => '最新问题',
 
   // src/applications/differential/controller/DifferentialRevisionViewController.php:934
-  'Recent Similar Revisions' => null,
+  'Recent Similar Revisions' => '最新相似修正',
 
   // src/applications/phortune/controller/PhortuneAccountViewController.php:354
-  'Recent Subscriptions' => null,
+  'Recent Subscriptions' => '最新订购',
 
   // src/applications/maniphest/controller/ManiphestReportController.php:627
-  'Recently Closed' => null,
+  'Recently Closed' => '最新关闭',
 
   // src/applications/daemon/controller/PhabricatorDaemonConsoleController.php:121
   'Recently Completed Tasks (Last 15m)' => null,
