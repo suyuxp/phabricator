@@ -31692,7 +31692,7 @@ return array(
   'Set Phabricator to trust an OAuth client. Phabricator redirects to trusted OAuth clients that users have authorized without user intervention.' => null,
 
   // src/applications/maniphest/editor/ManiphestEditEngine.php:61
-  'Set Sail for Adventure' => null,
+  'Set Sail for Adventure' => '提交',
 
   // src/applications/diffusion/panel/DiffusionSetPasswordSettingsPanel.php:123
   'Set VCS Password' => null,
