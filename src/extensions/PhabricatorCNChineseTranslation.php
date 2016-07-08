@@ -10575,7 +10575,7 @@ return array(
   'Conditions were met for %s' => null,
 
   // src/applications/auth/controller/PhabricatorEmailLoginController.php:94
-  'Condolences on forgetting your password. You can use this link to reset it:\n\n  %s\n\nAfter you set a new password, consider writing it down on a sticky note and attaching it to your monitor so you don\'t forget again! Choosing a very short, easy-to-remember password like "cat" or "1234" might also help.\n\nBest Wishes,\nPhabricator\n' => null,
+  'Condolences on forgetting your password. You can use this link to reset it:\n\n  %s\n\nAfter you set a new password, consider writing it down on a sticky note and attaching it to your monitor so you don\'t forget again! Choosing a very short, easy-to-remember password like "cat" or "1234" might also help.\n\nBest Wishes,\nGuGuD\n' => null,
 
   // src/applications/slowvote/application/PhabricatorSlowvoteApplication.php:18
   'Conduct Polls' => null,
@@ -11825,34 +11825,34 @@ return array(
 
   // src/applications/uiexample/examples/PHUIHovercardUIExample.php:50
   // src/applications/maniphest/controller/ManiphestTaskDetailController.php:195
-  'Create Subtask' => null,
+  'Create Subtask' => '创建子任务',
 
   // src/applications/repository/constants/PhabricatorRepositoryType.php:41
-  'Create Subversion Repository' => null,
+  'Create Subversion Repository' => '创建子版本代码库',
 
   // src/applications/maniphest/editor/ManiphestEditEngine.php:45
-  'Create Task' => null,
+  'Create Task' => '创建任务',
 
   // src/applications/project/controller/PhabricatorProjectBoardViewController.php:802
-  'Create Task...' => null,
+  'Create Task...' => '创建任务...',
 
   // src/applications/phriction/controller/PhrictionDocumentController.php:279
-  'Create This Document' => null,
+  'Create This Document' => '创建这个文档',
 
   // src/applications/phurl/controller/PhabricatorPhurlURLEditController.php:239
-  'Create URL' => null,
+  'Create URL' => '创建URL',
 
   // src/applications/people/controller/PhabricatorPeopleNewController.php:180
-  'Create User' => null,
+  'Create User' => '创建用户',
 
   // src/applications/phlux/controller/PhluxController.php:9
   // src/applications/phlux/controller/PhluxEditController.php:144
   // src/applications/phlux/controller/PhluxEditController.php:155
-  'Create Variable' => null,
+  'Create Variable' => '创建变量',
 
   // src/applications/project/controller/PhabricatorProjectBoardViewController.php:994
   // src/applications/project/controller/PhabricatorProjectBoardViewController.php:997
-  'Create Workboard' => null,
+  'Create Workboard' => '创建工作板',
 
   // src/applications/badges/query/PhabricatorBadgesSearchEngine.php:139
   'Create a Badge' => null,
@@ -11874,10 +11874,10 @@ return array(
   'Create a Diff' => null,
 
   // src/applications/legalpad/query/LegalpadDocumentSearchEngine.php:222
-  'Create a Document' => null,
+  'Create a Document' => '新建文档',
 
   // src/applications/macro/query/PhabricatorMacroSearchEngine.php:195
-  'Create a Macro' => null,
+  'Create a Macro' => '新建一个宏',
 
   // src/applications/pholio/query/PholioMockSearchEngine.php:136
   'Create a Mock' => null,
@@ -11886,7 +11886,7 @@ return array(
   'Create a Package' => null,
 
   // src/applications/dashboard/controller/PhabricatorDashboardPanelListController.php:54
-  'Create a Panel' => null,
+  'Create a Panel' => '新建一个面板',
 
   // src/applications/paste/query/PhabricatorPasteSearchEngine.php:209
   'Create a Paste' => null,
@@ -11898,18 +11898,18 @@ return array(
   'Create a Poll' => null,
 
   // src/applications/project/query/PhabricatorProjectSearchEngine.php:192
-  'Create a Project' => null,
+  'Create a Project' => '创建一个项目',
 
   // src/applications/conpherence/view/ConpherenceDurableColumnView.php:433
   // src/applications/conpherence/view/ConpherenceLayoutView.php:155
   // src/applications/conpherence/view/ConpherenceThreadListView.php:120
-  'Create a Room' => null,
+  'Create a Room' => '创建一个房间',
 
   // src/applications/spaces/query/PhabricatorSpacesNamespaceSearchEngine.php:104
-  'Create a Space' => null,
+  'Create a Space' => '创建一个空间',
 
   // src/applications/maniphest/query/ManiphestTaskSearchEngine.php:390
-  'Create a Task' => null,
+  'Create a Task' => '创建一个任务',
 
   // src/applications/diffusion/editor/DiffusionURIEditEngine.php:159
   'Create a URI in a given repository. This transaction type must be present when creating a new URI and must not be present when editing an existing URI.' => null,
@@ -17492,11 +17492,11 @@ return array(
   'Freeing active task leases...' => null,
 
   // src/view/phui/calendar/PHUICalendarMonthView.php:341
-  'Fri' => null,
+  'Fri' => '星期五',
 
   // src/view/phui/calendar/PHUICalendarMonthView.php:341
   // src/applications/settings/setting/PhabricatorWeekStartDaySetting.php:36
-  'Friday' => null,
+  'Friday' => '星期五',
 
   // src/applications/files/builtin/PhabricatorFilesComposeIconBuiltinFile.php:145
   'Friendly Fruit' => null,
@@ -17869,13 +17869,13 @@ return array(
 
   // src/applications/project/icon/PhabricatorProjectIconSet.php:50
   // src/applications/files/builtin/PhabricatorFilesComposeIconBuiltinFile.php:168
-  'Goal' => null,
+  'Goal' => '目的',
 
   // src/infrastructure/util/password/PhabricatorBcryptPasswordHasher.php:31
-  'Good' => null,
+  'Good' => '赞',
 
   // src/applications/files/builtin/PhabricatorFilesComposeIconBuiltinFile.php:188
-  'Good Guys' => null,
+  'Good Guys' => '好伙计',
 
   // src/applications/auth/provider/PhabricatorGoogleAuthProvider.php:7
   'Google' => null,
@@ -22698,7 +22698,7 @@ return array(
   'New Panel' => null,
 
   // src/applications/settings/panel/PhabricatorPasswordSettingsPanel.php:173
-  'New Password' => null,
+  'New Password' => '新密码',
 
   // src/applications/phriction/controller/PhrictionMoveController.php:97
   'New Path' => null,
@@ -22835,7 +22835,7 @@ return array(
   'New notification setting.' => null,
 
   // src/applications/settings/panel/PhabricatorPasswordSettingsPanel.php:77
-  'New password and confirmation do not match.' => null,
+  'New password and confirmation do not match.' => '新密码与确认密码不匹配',
 
   // src/applications/paste/editor/PhabricatorPasteEditEngine.php:115
   'New paste status constant.' => null,
@@ -31391,14 +31391,14 @@ return array(
 
   // src/applications/conpherence/controller/ConpherenceViewController.php:160
   // src/applications/conpherence/view/ConpherenceDurableColumnView.php:515
-  'Send' => null,
+  'Send' => '发送',
 
   // src/applications/people/controller/PhabricatorPeopleNewController.php:172
   'Send "Welcome to Phabricator" email with login instructions.' => null,
 
   // src/applications/auth/controller/PhabricatorMustVerifyEmailController.php:50
   // src/applications/auth/controller/PhabricatorAuthOneTimeLoginController.php:84
-  'Send Another Email' => null,
+  'Send Another Email' => '发送另一个邮件',
 
   // src/applications/settings/panel/PhabricatorEmailAddressesSettingsPanel.php:345
   'Send Another Verification Email?' => null,
@@ -31413,13 +31413,13 @@ return array(
   // src/applications/settings/panel/PhabricatorEmailAddressesSettingsPanel.php:349
   // src/applications/auth/controller/PhabricatorEmailLoginController.php:153
   // src/applications/people/controller/PhabricatorPeopleWelcomeController.php:49
-  'Send Email' => null,
+  'Send Email' => '发送邮件',
 
   // src/applications/settings/setting/PhabricatorEmailFormatSetting.php:35
-  'Send HTML Email' => null,
+  'Send HTML Email' => '发送HTML邮件',
 
   // src/applications/people/controller/PhabricatorPeopleInviteSendController.php:159
-  'Send Invitations' => null,
+  'Send Invitations' => '发送邀请',
 
   // src/applications/phortune/controller/PhortuneMerchantInvoiceCreateController.php:230
   'Send Invoice' => null,
@@ -31431,7 +31431,7 @@ return array(
   'Send Mail To Each Recipient' => null,
 
   // src/applications/settings/setting/PhabricatorConpherenceNotificationsSetting.php:46
-  'Send Notifications' => null,
+  'Send Notifications' => '发送通知',
 
   // src/applications/settings/setting/PhabricatorEmailFormatSetting.php:36
   'Send Plain Text Email' => null,
@@ -33862,11 +33862,11 @@ return array(
   'Summary' => null,
 
   // src/view/phui/calendar/PHUICalendarMonthView.php:336
-  'Sun' => null,
+  'Sun' => '星期天',
 
   // src/view/phui/calendar/PHUICalendarMonthView.php:336
   // src/applications/settings/setting/PhabricatorWeekStartDaySetting.php:31
-  'Sunday' => null,
+  'Sunday' => '星期天',
 
   // src/applications/badges/icon/PhabricatorBadgesIconSet.php:14
   'Superstar' => null,
