@@ -23015,13 +23015,13 @@ return array(
   'No "Host" header present in request.' => null,
 
   // src/applications/home/controller/PhabricatorHomeMainController.php:191
-  'No "Needs Triage" Tasks' => null,
+  'No "Needs Triage" Tasks' => '没有“待分类”任务',
 
   // src/applications/home/controller/PhabricatorHomeMainController.php:144
-  'No "Unbreak Now!" Tasks' => null,
+  'No "Unbreak Now!" Tasks' => '没有“现在缝合”任务',
 
   // src/aphront/configuration/AphrontApplicationConfiguration.php:322
-  'No %s' => null,
+  'No %s' => '没有 %s',
 
   // src/applications/releeph/conduit/ReleephRequestConduitAPIMethod.php:49
   'No %s found with PHID %s!' => null,
@@ -23060,22 +23060,22 @@ return array(
   'No Asana provider configured.' => null,
 
   // src/applications/home/controller/PhabricatorHomeMainController.php:270
-  'No Assigned Tasks' => null,
+  'No Assigned Tasks' => '没有指派的任务',
 
   // src/applications/home/controller/PhabricatorHomeMainController.php:350
-  'No Audits' => null,
+  'No Audits' => '没有检阅',
 
   // src/applications/config/check/PhabricatorAuthSetupCheck.php:34
-  'No Auth Providers' => null,
+  'No Auth Providers' => '没有认证提供商',
 
   // src/applications/config/check/PhabricatorAuthSetupCheck.php:35
-  'No Authentication Providers Configured' => null,
+  'No Authentication Providers Configured' => '没有身份认证提供商配置',
 
   // src/applications/drydock/logtype/DrydockLeaseNoAuthorizationsLogType.php:8
-  'No Authorizations' => null,
+  'No Authorizations' => '没有验证',
 
   // src/applications/phortune/controller/PhortuneSubscriptionViewController.php:77
-  'No Autopay Method Configured' => null,
+  'No Autopay Method Configured' => '没有自动转账方法配置',
 
   // src/applications/owners/storage/PhabricatorOwnersPackage.php:74
   'No Autoreview' => null,
@@ -23108,26 +23108,26 @@ return array(
   'No Chartable Facts' => null,
 
   // src/applications/repository/query/PhabricatorRepositorySearchEngine.php:206
-  'No Commits' => null,
+  'No Commits' => '没有提交',
 
   // src/applications/conduit/ssh/ConduitSSHWorkflow.php:21
   'No Conduit method provided.' => null,
 
   // src/applications/transactions/editengine/PhabricatorEditEngine.php:1580
-  'No Create Permission' => null,
+  'No Create Permission' => '没有创建权限',
 
   // src/applications/diffusion/controller/DiffusionRepositoryURIViewController.php:193
   // src/applications/diffusion/controller/DiffusionRepositoryURICredentialController.php:87
   'No Credential' => null,
 
   // src/applications/uiexample/examples/PHUIInfoExample.php:22
-  'No Data' => null,
+  'No Data' => '没有数据',
 
   // src/applications/transactions/editengine/PhabricatorEditEngine.php:1571
   'No Default Create Forms' => null,
 
   // src/applications/phriction/controller/PhrictionDocumentController.php:49
-  'No Document Here' => null,
+  'No Document Here' => '这里没有文档',
 
   // src/applications/transactions/editengine/PhabricatorEditEngine.php:1596
   'No Edit Forms' => null,
@@ -23215,36 +23215,36 @@ return array(
   // src/applications/drydock/controller/DrydockLeaseViewController.php:133
   // src/applications/people/typeahead/PhabricatorPeopleNoOwnerDatasource.php:23
   // src/applications/people/typeahead/PhabricatorPeopleNoOwnerDatasource.php:66
-  'No Owner' => null,
+  'No Owner' => '未指派',
 
   // src/applications/dashboard/controller/PhabricatorDashboardAddPanelController.php:62
   'No Panels Exist Yet' => null,
 
   // src/applications/diffusion/panel/DiffusionSetPasswordSettingsPanel.php:148
-  'No Password Set' => null,
+  'No Password Set' => '没有设置密码',
 
   // src/applications/herald/action/HeraldAction.php:327
-  'No Permission' => null,
+  'No Permission' => '没有许可',
 
   // src/applications/project/controller/PhabricatorProjectEditPictureController.php:126
-  'No Picture' => null,
+  'No Picture' => '没有图片',
 
   // src/applications/home/controller/PhabricatorHomeMainController.php:389
-  'No Problem Commits' => null,
+  'No Problem Commits' => '没有问题提交',
 
   // src/applications/dashboard/query/PhabricatorDashboardSearchEngine.php:139
   // src/applications/maniphest/view/ManiphestTaskListView.php:104
   // src/applications/harbormaster/query/HarbormasterBuildPlanSearchEngine.php:123
-  'No Projects' => null,
+  'No Projects' => '没有项目',
 
   // src/applications/phortune/controller/PhortuneMerchantViewController.php:124
-  'No Providers' => null,
+  'No Providers' => '没有提供商',
 
   // src/applications/auth/controller/config/PhabricatorAuthListController.php:85
   'No Providers Configured:' => null,
 
   // src/applications/metamta/constants/MetaMTAReceivedMailStatus.php:29
-  'No Public Mail' => null,
+  'No Public Mail' => '没有公开邮箱',
 
   // src/applications/metamta/constants/MetaMTAReceivedMailStatus.php:25
   'No Receivers' => null,
@@ -23271,7 +23271,7 @@ return array(
   'No Revision Specified' => null,
 
   // src/applications/conpherence/view/ConpherenceThreadListView.php:208
-  'No Rooms' => null,
+  'No Rooms' => '没有房间',
 
   // src/applications/config/check/PhabricatorMailSetupCheck.php:91
   'No SES From Address Configured' => null,
@@ -42881,7 +42881,7 @@ return array(
   'You have no accounts!' => null,
 
   // src/applications/home/controller/PhabricatorHomeMainController.php:271
-  'You have no assigned tasks.' => null,
+  'You have no assigned tasks.' => '当前没有指派给您的任务',
 
   // src/applications/phame/view/PhameDraftListView.php:74
   'You have no draft posts.' => null,
