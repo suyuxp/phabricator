@@ -33728,10 +33728,10 @@ return array(
   // src/applications/project/controller/PhabricatorProjectEditController.php:104
   // src/applications/project/controller/PhabricatorProjectProfileController.php:285
   // src/applications/project/profilepanel/PhabricatorProjectSubprojectsProfilePanel.php:13
-  'Subprojects' => '子项目',
+  'Subprojects' => '项目批次',
 
   // src/applications/project/controller/PhabricatorProjectSubprojectsController.php:102
-  'Subprojects and Milestones' => '子项目和里程碑',
+  'Subprojects and Milestones' => '项目批次和里程碑',
 
   // src/applications/project/controller/PhabricatorProjectSubprojectsController.php:135
   'Subprojects and milestones are only partially implemented.' => null,
