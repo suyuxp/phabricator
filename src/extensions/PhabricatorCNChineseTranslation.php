@@ -4451,7 +4451,7 @@ return array(
 
   // src/applications/legalpad/controller/LegalpadDocumentSignController.php:575
   // src/applications/legalpad/controller/LegalpadDocumentSignController.php:640
-  'A valid email is required.' => null,
+  'A valid email is required.' => '需要一个有效的邮箱。',
 
   // src/applications/settings/panel/PhabricatorEmailAddressesSettingsPanel.php:234
   'A verification email has been sent. Click the link in the email to verify your address.' => null,
@@ -5556,7 +5556,7 @@ return array(
 
   // src/applications/base/PhabricatorApplication.php:26
   // src/applications/people/icon/PhabricatorPeopleIconSet.php:105
-  'Administration' => null,
+  'Administration' => '管理',
 
   // src/applications/system/controller/PhabricatorSystemReadOnlyController.php:17
   'Administrative Read-Only Mode' => null,
@@ -5572,11 +5572,11 @@ return array(
   // src/applications/people/typeahead/PhabricatorPeopleDatasource.php:82
   // src/applications/people/typeahead/PhabricatorPeopleDatasource.php:87
   // src/applications/people/customfield/PhabricatorUserRolesField.php:29
-  'Administrator' => null,
+  'Administrator' => '管理员',
 
   // src/applications/people/query/PhabricatorPeopleSearchEngine.php:33
   // src/applications/policy/query/PhabricatorPolicyQuery.php:176
-  'Administrators' => null,
+  'Administrators' => '管理员',
 
   // src/applications/people/controller/PhabricatorPeopleCreateController.php:31
   'Administrators are limited in their ability to access or edit these accounts after account creation.' => null,
@@ -5591,26 +5591,26 @@ return array(
   'Administrators have greater access to edit these accounts.' => null,
 
   // src/applications/uiexample/examples/PHUIBadgeExample.php:100
-  'Adminstrator' => null,
+  'Adminstrator' => '管理员',
 
   // src/applications/owners/application/PhabricatorOwnersApplication.php:35
   'Adopt today!' => null,
 
   // src/applications/policy/constants/PhabricatorPolicyType.php:33
-  'Advanced' => null,
+  'Advanced' => '高级',
 
   // src/applications/project/controller/PhabricatorProjectBoardViewController.php:46
   // src/applications/project/controller/PhabricatorProjectBoardViewController.php:95
-  'Advanced Filter' => null,
+  'Advanced Filter' => '高级过滤',
 
   // src/applications/project/controller/PhabricatorProjectBoardViewController.php:643
-  'Advanced Filter...' => null,
+  'Advanced Filter...' => '高级过滤...',
 
   // src/view/page/menu/PhabricatorMainMenuSearchView.php:170
   // src/applications/search/controller/PhabricatorApplicationSearchController.php:192
   // src/applications/search/engine/PhabricatorApplicationSearchEngine.php:457
   // src/applications/diviner/controller/DivinerMainController.php:23
-  'Advanced Search' => null,
+  'Advanced Search' => '高级查询',
 
   // src/applications/diffusion/conduit/DiffusionLookSoonConduitAPIMethod.php:16
   'Advises Phabricator to look for new commits in a repository as soon as possible. This advice is most useful if you have just pushed new commits to that repository.' => null,
@@ -5887,7 +5887,7 @@ return array(
   'All Posts' => null,
 
   // src/applications/auth/query/PhabricatorAuthProviderConfigQuery.php:37
-  'All Providers' => null,
+  'All Providers' => '全部提供商',
 
   // src/applications/repository/query/PhabricatorRepositoryPushLogSearchEngine.php:79
   'All Push Logs' => null,
@@ -5896,7 +5896,7 @@ return array(
   'All Pushed Updates' => null,
 
   // src/applications/ponder/query/PonderQuestionSearchEngine.php:63
-  'All Questions' => null,
+  'All Questions' => '全部问题',
 
   // src/applications/nuance/query/NuanceQueueSearchEngine.php:34
   'All Queues' => null,
@@ -5905,63 +5905,63 @@ return array(
   'All Releeph methods are subject to abrupt change.' => null,
 
   // src/applications/repository/query/PhabricatorRepositorySearchEngine.php:92
-  'All Repositories' => null,
+  'All Repositories' => '全部代码库',
 
   // src/applications/releeph/query/ReleephRequestSearchEngine.php:100
-  'All Requests' => null,
+  'All Requests' => '全部请求',
 
   // src/applications/drydock/query/DrydockResourceSearchEngine.php:68
-  'All Resources' => null,
+  'All Resources' => '全部资源',
 
   // src/applications/differential/query/DifferentialRevisionSearchEngine.php:102
-  'All Revisions' => null,
+  'All Revisions' => '全部修订',
 
   // src/applications/conpherence/query/ConpherenceThreadSearchEngine.php:65
-  'All Rooms' => null,
+  'All Rooms' => '全部房间',
 
   // src/applications/project/__tests__/PhabricatorProjectCoreTestCase.php:788
   'All Scan' => null,
 
   // src/applications/almanac/query/AlmanacServiceSearchEngine.php:70
-  'All Services' => null,
+  'All Services' => '全部服务',
 
   // src/applications/settings/query/PhabricatorUserPreferencesSearchEngine.php:35
   // src/applications/config/controller/PhabricatorConfigController.php:16
-  'All Settings' => null,
+  'All Settings' => '全部设置',
 
   // src/applications/legalpad/query/LegalpadDocumentSignatureSearchEngine.php:122
-  'All Signatures' => null,
+  'All Signatures' => '全部签名',
 
   // src/applications/nuance/query/NuanceSourceSearchEngine.php:43
-  'All Sources' => null,
+  'All Sources' => '全部源',
 
   // src/applications/spaces/query/PhabricatorSpacesNamespaceSearchEngine.php:47
-  'All Spaces' => null,
+  'All Spaces' => '全部空间',
 
   // src/applications/feed/query/PhabricatorFeedSearchEngine.php:101
-  'All Stories' => null,
+  'All Stories' => '全部故事',
 
   // src/applications/phortune/query/PhortuneSubscriptionSearchEngine.php:109
-  'All Subscriptions' => null,
+  'All Subscriptions' => '全部订阅者',
 
   // src/applications/project/controller/PhabricatorProjectBoardViewController.php:591
   // src/applications/maniphest/query/ManiphestTaskSearchEngine.php:241
-  'All Tasks' => null,
+  'All Tasks' => '全部任务',
 
   // src/applications/maniphest/controller/ManiphestReportController.php:220
-  'All Time' => null,
+  'All Time' => '全部时间',
 
   // src/applications/phrequent/query/PhrequentSearchEngine.php:91
-  'All Tracked' => null,
+  'All Tracked' => '全部痕迹',
 
   // src/applications/herald/query/HeraldTranscriptSearchEngine.php:79
-  'All Transcripts' => null,
+  'All Transcripts' => '全部抄本',
 
   // src/applications/phurl/query/PhabricatorPhurlURLSearchEngine.php:47
-  'All URLs' => null,
+  'All URLs' => '全部 URLs',
 
   // src/applications/policy/query/PhabricatorPolicyQuery.php:174
-  'All Users' => null,
+  'All Users' => '全部用户',
 
   // src/applications/drydock/worker/DrydockLeaseUpdateWorker.php:226
   'All blueprints failed to allocate a suitable new resource when trying to allocate lease "%s".' => null,
@@ -7006,28 +7006,28 @@ return array(
   'Asana: %s' => null,
 
   // src/applications/ponder/controller/PonderQuestionEditController.php:191
-  'Ask New Question' => null,
+  'Ask New Question' => '提新问题',
 
   // src/applications/ponder/controller/PonderController.php:12
   // src/applications/ponder/controller/PonderController.php:34
   // src/applications/ponder/controller/PonderQuestionEditController.php:190
-  'Ask Question' => null,
+  'Ask Question' => '提问题',
 
   // src/applications/ponder/query/PonderQuestionSearchEngine.php:186
-  'Ask a Question' => null,
+  'Ask a Question' => '提一个问题',
 
   // src/applications/spaces/controller/PhabricatorSpacesNoAccessController.php:21
   'Ask someone to give you access to a space so you can view and create objects.' => null,
 
   // src/applications/ponder/storage/PonderQuestionTransaction.php:213
-  'Asked' => null,
+  'Asked' => '已问',
 
   // src/applications/ponder/query/PonderQuestionSearchEngine.php:157
   'Asked by %s' => null,
 
   // src/applications/ponder/controller/PonderQuestionViewController.php:197
   // src/applications/slowvote/controller/PhabricatorSlowvotePollController.php:130
-  'Asked by %s on %s.' => null,
+  'Asked by %s on %s.' => ' %s 提的问题 %s.',
 
   // src/applications/maniphest/editor/ManiphestEditEngine.php:188
   'Assign / Claim' => null,
@@ -7036,28 +7036,28 @@ return array(
   'Assign a task to a specific user.' => null,
 
   // src/applications/maniphest/herald/ManiphestTaskAssignOtherHeraldAction.php:9
-  'Assign task to' => null,
+  'Assign task to' => '指派任务给',
 
   // src/applications/maniphest/herald/ManiphestTaskAssignSelfHeraldAction.php:9
-  'Assign task to me' => null,
+  'Assign task to me' => '指派任务给我',
 
   // src/applications/maniphest/herald/ManiphestTaskAssignSelfHeraldAction.php:26
-  'Assign task to rule author.' => null,
+  'Assign task to rule author.' => '指派任务给规则作者',
 
   // src/applications/maniphest/herald/ManiphestTaskAssignOtherHeraldAction.php:34
-  'Assign task to: %s.' => null,
+  'Assign task to: %s.' => '指派任务给：%s .',
 
   // src/applications/maniphest/command/ManiphestClaimEmailCommand.php:12
-  'Assign yourself as the owner of a task. To assign another user, see `%s`.' => null,
+  'Assign yourself as the owner of a task. To assign another user, see `%s`.' => '指派您自己作为一个任务所有者。指派其他用户见  `%s`.',
 
   // src/applications/maniphest/query/ManiphestTaskSearchEngine.php:235
   // src/applications/maniphest/query/ManiphestTaskSearchEngine.php:286
   // src/applications/maniphest/storage/ManiphestTransaction.php:290
   // src/infrastructure/graph/ManiphestTaskGraph.php:84
-  'Assigned' => null,
+  'Assigned' => '已指派',
 
   // src/applications/maniphest/herald/ManiphestTaskAssignHeraldAction.php:56
-  'Assigned Task' => null,
+  'Assigned Task' => '已指派任务',
 
   // src/applications/home/controller/PhabricatorHomeMainController.php:274
   'Assigned Tasks' => '已指派任务',
@@ -7373,24 +7373,24 @@ return array(
   // src/applications/herald/controller/HeraldRuleViewController.php:121
   // src/infrastructure/diff/view/PHUIDiffInlineCommentDetailView.php:394
   // src/infrastructure/graph/DifferentialRevisionGraph.php:71
-  'Author' => null,
+  'Author' => '发起人',
 
   // src/applications/metamta/management/PhabricatorMailManagementShowInboundWorkflow.php:57
-  'Author PHID: %s' => null,
+  'Author PHID: %s' => '发起人 PHID: %s',
 
   // src/applications/differential/herald/DifferentialRevisionAuthorProjectsHeraldField.php:9
   // src/applications/differential/herald/DifferentialDiffAuthorProjectsHeraldField.php:9
-  'Author\'s projects' => null,
+  'Author\'s projects' => '发起人的项目',
 
   // src/applications/diffusion/view/DiffusionHistoryTableView.php:188
-  'Author/Committer' => null,
+  'Author/Committer' => '发起人/委托',
 
   // src/applications/uiexample/examples/PHUIObjectItemListExample.php:113
   // src/applications/slowvote/query/PhabricatorSlowvoteSearchEngine.php:153
   // src/applications/differential/view/DifferentialRevisionListView.php:128
   // src/applications/paste/query/PhabricatorPasteSearchEngine.php:181
   // src/applications/audit/view/PhabricatorAuditListView.php:163
-  'Author: %s' => null,
+  'Author: %s' => '发起人：%s',
 
   // src/applications/ponder/query/PonderQuestionSearchEngine.php:67
   // src/applications/slowvote/query/PhabricatorSlowvoteSearchEngine.php:76
@@ -7403,20 +7403,20 @@ return array(
   // src/applications/macro/query/PhabricatorMacroSearchEngine.php:102
   // src/applications/paste/query/PhabricatorPasteSearchEngine.php:99
   // src/applications/herald/query/HeraldRuleSearchEngine.php:105
-  'Authored' => null,
+  'Authored' => '已任命',
 
   // src/applications/pholio/controller/PholioMockViewController.php:170
   // src/applications/maniphest/controller/ManiphestTaskDetailController.php:257
-  'Authored By' => null,
+  'Authored By' => '任命由',
 
   // src/applications/audit/query/PhabricatorCommitSearchEngine.php:90
-  'Authored Commits' => null,
+  'Authored Commits' => '已任务提交',
 
   // src/infrastructure/daemon/workers/query/PhabricatorWorkerBulkJobSearchEngine.php:45
-  'Authored Jobs' => null,
+  'Authored Jobs' => '已任命工作',
 
   // src/applications/herald/query/HeraldRuleSearchEngine.php:187
-  'Authored by %s' => null,
+  'Authored by %s' => '任命由 %s',
 
   // src/applications/diffusion/controller/DiffusionCommitController.php:657
   // src/applications/differential/controller/DifferentialRevisionViewController.php:525
@@ -7433,10 +7433,10 @@ return array(
   // src/applications/oauthserver/phid/PhabricatorOAuthServerClientAuthorizationPHIDType.php:35
   // src/applications/drydock/controller/DrydockAuthorizationViewController.php:19
   // src/applications/drydock/view/DrydockAuthorizationListView.php:44
-  'Authorization %d' => null,
+  'Authorization %d' => '授权',
 
   // src/applications/drydock/controller/DrydockAuthorizationViewController.php:125
-  'Authorization State' => null,
+  'Authorization State' => '授权状态',
 
   // src/applications/oauthserver/controller/PhabricatorOAuthServerTokenController.php:70
   'Authorization code %s not found.' => null,
@@ -7445,7 +7445,7 @@ return array(
   'Authorization token from Twilio service.' => null,
 
   // src/applications/drydock/controller/DrydockAuthorizationListController.php:80
-  'Authorizations' => null,
+  'Authorizations' => '授权',
 
   // src/applications/oauthserver/storage/PhabricatorOAuthClientAuthorization.php:78
   'Authorizations can only be viewed by the authorizing user.' => null,
@@ -7458,13 +7458,13 @@ return array(
   'Authorize Access' => null,
 
   // src/applications/oauthserver/controller/client/PhabricatorOAuthClientTestController.php:65
-  'Authorize Application' => null,
+  'Authorize Application' => '授权应用',
 
   // src/applications/oauthserver/controller/client/PhabricatorOAuthClientTestController.php:58
   'Authorize Application?' => null,
 
   // src/applications/drydock/storage/DrydockAuthorization.php:80
-  'Authorized' => null,
+  'Authorized' => '已授权',
 
   // src/applications/phortune/controller/PhortuneCartViewController.php:239
   // src/applications/phortune/query/PhortuneCartSearchEngine.php:207
@@ -7487,7 +7487,7 @@ return array(
   // src/applications/audit/query/PhabricatorCommitSearchEngine.php:59
   // src/applications/herald/query/HeraldRuleSearchEngine.php:70
   // src/infrastructure/daemon/workers/query/PhabricatorWorkerBulkJobSearchEngine.php:31
-  'Authors' => null,
+  'Authors' => '发起人',
 
   // src/applications/owners/controller/PhabricatorOwnersDetailController.php:198
   // src/applications/owners/editor/PhabricatorOwnersPackageEditEngine.php:121
@@ -7495,7 +7495,7 @@ return array(
 
   // src/applications/diffusion/management/DiffusionRepositoryActionsManagementPanel.php:79
   // src/applications/diffusion/editor/DiffusionRepositoryEditEngine.php:419
-  'Autoclose' => null,
+  'Autoclose' => '自动关闭',
 
   // src/applications/diffusion/view/DiffusionBranchTableView.php:75
   'Autoclose Enabled' => null,
@@ -8742,7 +8742,7 @@ return array(
   'CONFUSION: commit %s in %s contains %d path change(s) that were part of a Releeph branch, but also has %d path change(s) not part of a Releeph branch!' => null,
 
   // src/applications/conpherence/editor/ConpherenceEditor.php:588
-  'CONPHERENCE DETAIL' => null,
+  'CONPHERENCE DETAIL' => '对话明细',
 
   // src/applications/countdown/editor/PhabricatorCountdownEditor.php:185
   'COUNTDOWN DESCRIPTION' => null,
@@ -11049,25 +11049,25 @@ return array(
   // src/applications/conpherence/application/PhabricatorConpherenceApplication.php:10
   // src/applications/conpherence/controller/ConpherenceListController.php:34
   // src/applications/conpherence/config/ConpherenceConfigOptions.php:7
-  'Conpherence' => null,
+  'Conpherence' => '对话',
 
   // src/applications/settings/setting/PhabricatorConpherenceColumnVisibleSetting.php:9
   'Conpherence Column Visible' => null,
 
   // src/applications/settings/setting/PhabricatorConpherenceNotificationsSetting.php:12
-  'Conpherence Notifications' => null,
+  'Conpherence Notifications' => '对话通知',
 
   // src/applications/settings/panel/PhabricatorConpherencePreferencesSettingsPanel.php:9
-  'Conpherence Preferences' => null,
+  'Conpherence Preferences' => '对话偏好',
 
   // src/applications/conpherence/phid/PhabricatorConpherenceThreadPHIDType.php:8
-  'Conpherence Room' => null,
+  'Conpherence Room' => '对话房间',
 
   // src/applications/conpherence/editor/ConpherenceEditor.php:13
-  'Conpherence Rooms' => null,
+  'Conpherence Rooms' => '对话房间',
 
   // src/applications/conpherence/engineextension/ConpherenceThreadIndexEngineExtension.php:9
-  'Conpherence Threads' => null,
+  'Conpherence Threads' => '对话线程',
 
   // src/applications/almanac/controller/AlmanacConsoleController.php:63
   // src/applications/nuance/controller/NuanceConsoleController.php:37
@@ -11109,17 +11109,17 @@ return array(
 
   // src/applications/legalpad/controller/LegalpadDocumentSignatureViewController.php:89
   // src/applications/legalpad/controller/LegalpadDocumentSignController.php:507
-  'Contact Email' => null,
+  'Contact Email' => '联系人邮箱',
 
   // src/applications/legalpad/controller/LegalpadDocumentSignatureViewController.php:85
   // src/applications/legalpad/controller/LegalpadDocumentSignController.php:501
   'Contact Name' => null,
 
   // src/applications/legalpad/controller/LegalpadDocumentSignController.php:634
-  'Contact email is required.' => null,
+  'Contact email is required.' => '需要一个联系人邮箱',
 
   // src/applications/legalpad/controller/LegalpadDocumentSignController.php:624
-  'Contact name is required.' => null,
+  'Contact name is required.' => '需要联系人姓名',
 
   // src/applications/harbormaster/controller/HarbormasterBuildableViewController.php:166
   'Container' => null,
@@ -11136,13 +11136,13 @@ return array(
 
   // src/applications/phriction/controller/PhrictionEditController.php:226
   // src/applications/phriction/herald/PhrictionDocumentContentHeraldField.php:9
-  'Content' => null,
+  'Content' => '内容',
 
   // src/applications/phriction/controller/PhrictionDiffController.php:53
-  'Content Changes' => null,
+  'Content Changes' => '内容变化',
 
   // src/applications/differential/controller/DifferentialRevisionViewController.php:408
-  'Content Hidden' => null,
+  'Content Hidden' => '隐藏内容',
 
   // src/applications/metamta/controller/PhabricatorMetaMTAMailViewController.php:18
   // src/applications/metamta/query/PhabricatorMetaMTAMailSearchEngine.php:104
@@ -15159,21 +15159,21 @@ return array(
   'Edit Pull Request' => null,
 
   // src/applications/search/engine/PhabricatorApplicationSearchEngine.php:452
-  'Edit Queries...' => null,
+  'Edit Queries...' => '编辑查询...',
 
   // src/applications/search/controller/PhabricatorApplicationSearchController.php:203
-  'Edit Query' => null,
+  'Edit Query' => '编辑查询',
 
   // src/applications/ponder/controller/PonderQuestionEditController.php:185
   // src/applications/ponder/controller/PonderQuestionViewController.php:158
-  'Edit Question' => null,
+  'Edit Question' => '编辑问题',
 
   // src/applications/nuance/controller/NuanceQueueViewController.php:67
   // src/applications/nuance/editor/NuanceQueueEditEngine.php:49
-  'Edit Queue' => null,
+  'Edit Queue' => '编辑队列',
 
   // src/applications/nuance/editor/NuanceQueueEditEngine.php:45
-  'Edit Queue: %s' => null,
+  'Edit Queue: %s' => '编辑队列：%s',
 
   // src/applications/badges/controller/PhabricatorBadgesEditRecipientsController.php:73
   'Edit Recipients' => null,
@@ -15227,10 +15227,10 @@ return array(
 
   // src/applications/conpherence/view/ConpherenceDurableColumnView.php:390
   // src/applications/conpherence/constants/ConpherenceWidgetConfigConstants.php:40
-  'Edit Room' => null,
+  'Edit Room' => '编辑房间',
 
   // src/applications/herald/controller/HeraldRuleViewController.php:80
-  'Edit Rule' => null,
+  'Edit Rule' => '编辑规则',
 
   // src/applications/auth/controller/PhabricatorAuthSSHKeyViewController.php:90
   'Edit SSH Key' => null,
@@ -15250,21 +15250,21 @@ return array(
 
   // src/applications/settings/editor/PhabricatorSettingsEditEngine.php:66
   // src/applications/people/controller/PhabricatorPeopleProfileManageController.php:124
-  'Edit Settings' => null,
+  'Edit Settings' => '编辑设置',
 
   // src/applications/settings/editor/PhabricatorSettingsEditEngine.php:38
   'Edit Settings Configurations' => null,
 
   // src/applications/nuance/controller/NuanceSourceViewController.php:80
   // src/applications/nuance/editor/NuanceSourceEditEngine.php:70
-  'Edit Source' => null,
+  'Edit Source' => '编辑源',
 
   // src/applications/nuance/editor/NuanceSourceEditEngine.php:66
   'Edit Source: %s' => null,
 
   // src/applications/spaces/controller/PhabricatorSpacesEditController.php:30
   // src/applications/spaces/controller/PhabricatorSpacesViewController.php:115
-  'Edit Space' => null,
+  'Edit Space' => '编辑空间',
 
   // src/applications/diffusion/management/DiffusionRepositoryStagingManagementPanel.php:54
   'Edit Staging' => null,
@@ -15287,18 +15287,18 @@ return array(
   'Edit Symbols' => null,
 
   // src/applications/maniphest/controller/ManiphestTaskDetailController.php:168
-  'Edit Task' => null,
+  'Edit Task' => '编辑任务',
 
   // src/applications/maniphest/editor/ManiphestEditEngine.php:37
-  'Edit Task: %s' => null,
+  'Edit Task: %s' => '编辑任务：%s',
 
   // src/applications/pholio/relationships/PholioMockHasTaskRelationship.php:13
   // src/applications/diffusion/relationships/DiffusionCommitHasTaskRelationship.php:13
   // src/applications/differential/relationships/DifferentialRevisionHasTaskRelationship.php:13
-  'Edit Tasks' => null,
+  'Edit Tasks' => '编辑任务',
 
   // src/applications/diffusion/management/DiffusionRepositoryBasicsManagementPanel.php:79
-  'Edit Text Encoding' => null,
+  'Edit Text Encoding' => '编辑文本编码',
 
   // src/applications/config/check/PhabricatorExtraConfigSetupCheck.php:398
   'Edit These Settings' => null,
@@ -15367,7 +15367,7 @@ return array(
   // src/view/phui/PHUITimelineEventView.php:503
   // src/applications/phriction/storage/PhrictionTransaction.php:130
   // src/applications/maniphest/storage/ManiphestTransaction.php:282
-  'Edited' => null,
+  'Edited' => '已编辑',
 
   // src/applications/macro/storage/PhabricatorMacroTransaction.php:235
   'Edited Image' => null,
@@ -15558,7 +15558,7 @@ return array(
 
   // src/applications/people/editor/PhabricatorUserEditor.php:42
   // src/applications/people/editor/PhabricatorUserEditor.php:413
-  'Email has already been created!' => null,
+  'Email has already been created!' => '邮箱已存在',
 
   // src/applications/people/editor/PhabricatorUserEditor.php:463
   // src/applications/people/editor/PhabricatorUserEditor.php:509
@@ -15570,12 +15570,12 @@ return array(
   'Email is already primary!' => null,
 
   // src/applications/people/editor/PhabricatorUserEditor.php:527
-  'Email is not verified!' => null,
+  'Email is not verified!' => '邮箱未证实',
 
   // src/applications/settings/panel/PhabricatorEmailAddressesSettingsPanel.php:186
   // src/applications/auth/controller/PhabricatorAuthRegisterController.php:252
   // src/applications/people/controller/PhabricatorPeopleNewController.php:46
-  'Email is required.' => null,
+  'Email is required.' => '需要邮箱。',
 
   // src/applications/people/editor/PhabricatorUserEditor.php:476
   'Email not owned by user!' => null,
@@ -19500,10 +19500,10 @@ return array(
   // src/infrastructure/customfield/standard/PhabricatorStandardCustomFieldPHIDs.php:223
   // src/infrastructure/customfield/standard/PhabricatorStandardCustomFieldCredential.php:82
   // src/infrastructure/customfield/standard/PhabricatorStandardCustomFieldCredential.php:87
-  'Invalid' => null,
+  'Invalid' => '无效',
 
   // src/applications/differential/render/DifferentialChangesetHTMLRenderer.php:375
-  'Invalid \'%s\' parameter \'%s\'!' => null,
+  'Invalid \'%s\' parameter \'%s\'!' => '无效 \'%s\' 参数 \'%s\'!',
 
   // src/applications/transactions/editor/PhabricatorApplicationTransactionEditor.php:1829
   'Invalid \'%s\' value for Edge transaction. Value should contain only keys \'%s\' (add edges), \'%s\' (remove edges) and \'%s\' (set edges).' => null,
@@ -19512,20 +19512,20 @@ return array(
   'Invalid \'%s\' value for PHID transaction. Value should contain only keys \'%s\' (add PHIDs), \'%s\' (remove PHIDs) and \'%s\' (set PHIDS).' => null,
 
   // src/applications/herald/action/HeraldAction.php:332
-  'Invalid Action' => null,
+  'Invalid Action' => '无效行为',
 
   // src/applications/phurl/editor/PhabricatorPhurlURLEditor.php:129
   // src/applications/phurl/editor/PhabricatorPhurlURLEditor.php:136
-  'Invalid Alias' => null,
+  'Invalid Alias' => '无效昵称',
 
   // src/applications/files/controller/PhabricatorFileDataController.php:142
-  'Invalid Authorization' => null,
+  'Invalid Authorization' => '无效认证',
 
   // src/applications/oauthserver/controller/PhabricatorOAuthServerAuthController.php:58
-  'Invalid Client Application' => null,
+  'Invalid Client Application' => '无效客户端应用',
 
   // src/applications/herald/controller/HeraldRuleController.php:53
-  'Invalid Content Type' => null,
+  'Invalid Content Type' => '无效内容类型',
 
   // src/applications/passphrase/view/PassphraseCredentialControl.php:73
   'Invalid Credential ("%s")' => null,
@@ -19549,17 +19549,17 @@ return array(
   'Invalid JSON: %s' => null,
 
   // src/applications/maniphest/constants/__tests__/ManiphestTaskStatusTestCase.php:66
-  'Invalid Key' => null,
+  'Invalid Key' => '无效Key',
 
   // src/applications/auth/provider/PhabricatorOAuth2AuthProvider.php:268
   'Invalid OAuth Access Token' => null,
 
   // src/applications/policy/__tests__/PhabricatorPolicyTestCase.php:188
   // src/applications/phame/editor/PhameBlogEditor.php:206
-  'Invalid Policy' => null,
+  'Invalid Policy' => '无效规则',
 
   // src/applications/almanac/controller/AlmanacPropertyEditController.php:40
-  'Invalid Property' => null,
+  'Invalid Property' => '无效属性',
 
   // src/applications/oauthserver/controller/PhabricatorOAuthServerAuthController.php:82
   'Invalid Redirect URI' => null,
@@ -19580,11 +19580,11 @@ return array(
   'Invalid Token' => null,
 
   // src/applications/phame/editor/PhameBlogEditor.php:176
-  'Invalid URI' => null,
+  'Invalid URI' => '无效URL',
 
   // src/applications/phurl/controller/PhabricatorPhurlShortURLDefaultController.php:12
   // src/applications/phurl/editor/PhabricatorPhurlURLEditor.php:167
-  'Invalid URL' => null,
+  'Invalid URL' => '无效URL',
 
   // src/applications/policy/controller/PhabricatorPolicyEditController.php:107
   'Invalid action \'%s\'!' => null,
@@ -19611,7 +19611,7 @@ return array(
   'Invalid currency format (\'%s\').' => null,
 
   // src/applications/calendar/editor/PhabricatorCalendarEventEditor.php:350
-  'Invalid date.' => null,
+  'Invalid date.' => '无效数据.',
 
   // src/view/phui/PHUIObjectItemView.php:326
   'Invalid effect!' => null,
@@ -20968,7 +20968,7 @@ return array(
   // src/applications/auth/controller/PhabricatorAuthStartController.php:201
   // src/applications/auth/controller/PhabricatorAuthOneTimeLoginController.php:173
   // src/applications/auth/provider/PhabricatorPasswordAuthProvider.php:177
-  'Login to Phabricator' => '登入 gugud',
+  'Login to Phabricator' => '登入 GuGuD',
 
   // src/applications/diffusion/config/PhabricatorDiffusionConfigOptions.php:120
   'Login username for SSH connections to repositories.' => null,
@@ -20980,7 +20980,7 @@ return array(
   'Login with LDAP' => 'LDAP登入',
 
   // src/applications/oauthserver/application/PhabricatorOAuthServerApplication.php:26
-  'Login with Phabricator' => 'gugud登入',
+  'Login with Phabricator' => 'GuGuD 登入',
 
   // src/applications/auth/application/PhabricatorAuthApplication.php:26
   'Login/Registration' => '登入/注册',
@@ -26298,10 +26298,10 @@ return array(
 
   // src/applications/metamta/storage/PhabricatorMetaMTAMail.php:471
   // src/applications/auth/provider/PhabricatorPhabricatorAuthProvider.php:10
-  'Phabricator' => 'gugud',
+  'Phabricator' => 'GuGuD',
 
   // src/applications/people/controller/PhabricatorPeopleApproveController.php:33
-  'Phabricator Account "%s" Approved' => 'gugud Account "%s" Approved',
+  'Phabricator Account "%s" Approved' => 'GuGuD Account "%s" Approved',
 
   // src/applications/auth/provider/PhabricatorPhabricatorAuthProvider.php:185
   'CS Base URI' => null,
@@ -26313,91 +26313,91 @@ return array(
   'CS Bot stopped reading from stream.' => null,
 
   // src/applications/almanac/servicetype/AlmanacClusterDatabaseServiceType.php:13
-  'Phabricator Cluster: Database' => 'gugud Cluster: Database',
+  'Phabricator Cluster: Database' => 'GuGuD Cluster: Database',
 
   // src/applications/almanac/servicetype/AlmanacClusterRepositoryServiceType.php:13
-  'Phabricator Cluster: Repository' => 'gugud Cluster: Repository',
+  'Phabricator Cluster: Repository' => 'GuGuD Cluster: Repository',
 
   // src/applications/config/controller/PhabricatorConfigListController.php:16
   // src/applications/config/editor/PhabricatorConfigEditor.php:11
-  'Phabricator Configuration' => 'gugud Configuration',
+  'Phabricator Configuration' => 'GuGuD Configuration',
 
   // src/applications/config/check/PhabricatorDaemonsSetupCheck.php:43
-  'Phabricator Daemons Are Not Running' => 'gugud Daemons Are Not Running',
+  'Phabricator Daemons Are Not Running' => 'GuGuD Daemons Are Not Running',
 
   // src/applications/nuance/source/NuancePhabricatorFormSourceDefinition.php:7
-  'Phabricator Form' => 'gugud Form',
+  'Phabricator Form' => 'GuGuD Form',
 
   // src/applications/auth/provider/PhabricatorPhabricatorAuthProvider.php:164
   // src/applications/auth/provider/PhabricatorPhabricatorAuthProvider.php:178
-  'Phabricator Instance Name' => 'gugud Instance Name',
+  'Phabricator Instance Name' => 'GuGuD Instance Name',
 
   // src/applications/metamta/constants/MetaMTAReceivedMailStatus.php:24
-  'Phabricator Mail' => 'gugud Mail',
+  'Phabricator Mail' => 'GuGuD 邮箱',
 
   // src/applications/auth/controller/PhabricatorAuthRegisterController.php:498
-  'Phabricator Registration' => 'gugud 用户注册',
+  'Phabricator Registration' => 'GuGuD 用户注册',
 
   // src/applications/config/response/PhabricatorConfigResponse.php:24
-  'Phabricator Setup Error' => 'gugud Setup Error',
+  'Phabricator Setup Error' => 'GuGuD 安装错误',
 
   // src/applications/uiexample/examples/PHUIBadgeExample.php:55
-  'Phabricator User' => 'gugud User',
+  'Phabricator User' => 'GuGuD 用户',
 
   // src/applications/auth/controller/PhabricatorAuthRegisterController.php:421
   // src/applications/auth/controller/PhabricatorAuthRegisterController.php:428
   'Phabricator Username' => '用户名',
 
   // src/applications/policy/config/PhabricatorPolicyConfigOptions.php:40
-  'Phabricator allows you to set the visibility of objects (like repositories and tasks) to \'Public\', which means **anyone on the internet can see them, without needing to log in or have an account**.\n\nThis is intended for open source projects. Many installs will never want to make anything public, so this policy is disabled by default. You can enable it here, which will let you set the policy for objects to \'Public\'.\n\nEnabling this setting will immediately open up some features, like the user directory. Anyone on the internet will be able to access these features.\n\nWith this setting disabled, the \'Public\' policy is not available, and the most open policy is \'All Users\' (which means users must have accounts and be logged in to view things).' => 'gugud allows you to set the visibility of objects (like repositories and tasks) to \'Public\', which means **anyone on the internet can see them, without needing to log in or have an account**.\n\nThis is intended for open source projects. Many installs will never want to make anything public, so this policy is disabled by default. You can enable it here, which will let you set the policy for objects to \'Public\'.\n\nEnabling this setting will immediately open up some features, like the user directory. Anyone on the internet will be able to access these features.\n\nWith this setting disabled, the \'Public\' policy is not available, and the most open policy is \'All Users\' (which means users must have accounts and be logged in to view things).',
+  'Phabricator allows you to set the visibility of objects (like repositories and tasks) to \'Public\', which means **anyone on the internet can see them, without needing to log in or have an account**.\n\nThis is intended for open source projects. Many installs will never want to make anything public, so this policy is disabled by default. You can enable it here, which will let you set the policy for objects to \'Public\'.\n\nEnabling this setting will immediately open up some features, like the user directory. Anyone on the internet will be able to access these features.\n\nWith this setting disabled, the \'Public\' policy is not available, and the most open policy is \'All Users\' (which means users must have accounts and be logged in to view things).' => 'GuGuD allows you to set the visibility of objects (like repositories and tasks) to \'Public\', which means **anyone on the internet can see them, without needing to log in or have an account**.\n\nThis is intended for open source projects. Many installs will never want to make anything public, so this policy is disabled by default. You can enable it here, which will let you set the policy for objects to \'Public\'.\n\nEnabling this setting will immediately open up some features, like the user directory. Anyone on the internet will be able to access these features.\n\nWith this setting disabled, the \'Public\' policy is not available, and the most open policy is \'All Users\' (which means users must have accounts and be logged in to view things).',
 
   // src/applications/auth/management/PhabricatorAuthManagementUntrustOAuthClientWorkflow.php:49
-  'Phabricator already does not trust OAuth client "%s".' => 'gugud already does not trust OAuth client "%s".',
+  'Phabricator already does not trust OAuth client "%s".' => 'GuGuD already does not trust OAuth client "%s".',
 
   // src/applications/auth/management/PhabricatorAuthManagementTrustOAuthClientWorkflow.php:49
-  'Phabricator already trusts OAuth client "%s".' => 'gugud already trusts OAuth client "%s".',
+  'Phabricator already trusts OAuth client "%s".' => 'GuGuD already trusts OAuth client "%s".',
 
   // src/applications/auth/provider/PhabricatorPhabricatorAuthProvider.php:119
-  'Phabricator base URI is required.' => 'gugud base URI is required.',
+  'Phabricator base URI is required.' => 'GuGuD base URI is required.',
 
   // src/applications/auth/provider/PhabricatorPhabricatorAuthProvider.php:125
-  'Phabricator base URI should include protocol (like "%s").' => 'gugud base URI should include protocol (like "%s").',
+  'Phabricator base URI should include protocol (like "%s").' => 'GuGuD base URI should include protocol (like "%s").',
 
   // src/applications/config/option/PhabricatorSyntaxHighlightingConfigOptions.php:34
-  'Phabricator can highlight PHP by default and use Pygments for other languages if enabled. You can provide a custom highlighter engine by extending class %s.' => 'gugud can highlight PHP by default and use Pygments for other languages if enabled. You can provide a custom highlighter engine by extending class %s.',
+  'Phabricator can highlight PHP by default and use Pygments for other languages if enabled. You can provide a custom highlighter engine by extending class %s.' => 'GuGuD can highlight PHP by default and use Pygments for other languages if enabled. You can provide a custom highlighter engine by extending class %s.',
 
   // src/applications/config/check/PhabricatorPygmentSetupCheck.php:67
-  'Phabricator can highlight a few languages by default, but installing and enabling Pygments (a third-party highlighting tool) will add syntax highlighting for many more languages. \n\nFor instructions on installing and enabling Pygments, see the %s configuration option.\n\nIf you do not want to install Pygments, you can ignore this issue.' => 'gugud can highlight a few languages by default, but installing and enabling Pygments (a third-party highlighting tool) will add syntax highlighting for many more languages. \n\nFor instructions on installing and enabling Pygments, see the %s configuration option.\n\nIf you do not want to install Pygments, you can ignore this issue.',
+  'Phabricator can highlight a few languages by default, but installing and enabling Pygments (a third-party highlighting tool) will add syntax highlighting for many more languages. \n\nFor instructions on installing and enabling Pygments, see the %s configuration option.\n\nIf you do not want to install Pygments, you can ignore this issue.' => 'GuGuD can highlight a few languages by default, but installing and enabling Pygments (a third-party highlighting tool) will add syntax highlighting for many more languages. \n\nFor instructions on installing and enabling Pygments, see the %s configuration option.\n\nIf you do not want to install Pygments, you can ignore this issue.',
 
   // src/applications/metamta/storage/PhabricatorMetaMTAReceivedMail.php:284
-  'Phabricator can not process this mail because no application knows how to handle it. Check that the address you sent it to is correct.\n\n(No concrete, enabled subclass of PhabricatorMailReceiver can accept this mail.)' => 'gugud can not process this mail because no application knows how to handle it. Check that the address you sent it to is correct.\n\n(No concrete, enabled subclass of gugudMailReceiver can accept this mail.)',
+  'Phabricator can not process this mail because no application knows how to handle it. Check that the address you sent it to is correct.\n\n(No concrete, enabled subclass of PhabricatorMailReceiver can accept this mail.)' => 'GuGuD can not process this mail because no application knows how to handle it. Check that the address you sent it to is correct.\n\n(No concrete, enabled subclass of GuGuDMailReceiver can accept this mail.)',
 
   // src/applications/diffusion/config/PhabricatorDiffusionConfigOptions.php:109
-  'Phabricator can serve repositories over HTTP, using HTTP basic auth.\n\nBecause HTTP basic auth is less secure than SSH auth, it is disabled by default. You can enable it here if you\'d like to use it anyway. There\'s nothing fundamentally insecure about it as long as Phabricator uses HTTPS, but it presents a much lower barrier to attackers than SSH does.\n\nConsider using SSH for authenticated access to repositories instead of HTTP.' => 'gugud can serve repositories over HTTP, using HTTP basic auth.\n\nBecause HTTP basic auth is less secure than SSH auth, it is disabled by default. You can enable it here if you\'d like to use it anyway. There\'s nothing fundamentally insecure about it as long as gugud uses HTTPS, but it presents a much lower barrier to attackers than SSH does.\n\nConsider using SSH for authenticated access to repositories instead of HTTP.',
+  'Phabricator can serve repositories over HTTP, using HTTP basic auth.\n\nBecause HTTP basic auth is less secure than SSH auth, it is disabled by default. You can enable it here if you\'d like to use it anyway. There\'s nothing fundamentally insecure about it as long as Phabricator uses HTTPS, but it presents a much lower barrier to attackers than SSH does.\n\nConsider using SSH for authenticated access to repositories instead of HTTP.' => 'GuGuD can serve repositories over HTTP, using HTTP basic auth.\n\nBecause HTTP basic auth is less secure than SSH auth, it is disabled by default. You can enable it here if you\'d like to use it anyway. There\'s nothing fundamentally insecure about it as long as GuGuD uses HTTPS, but it presents a much lower barrier to attackers than SSH does.\n\nConsider using SSH for authenticated access to repositories instead of HTTP.',
 
   // src/applications/config/option/PhabricatorMetaMTAConfigOptions.php:298
-  'Phabricator can use less-secure but mailing list friendly public reply addresses.' => 'gugud can use less-secure but mailing list friendly public reply addresses.',
+  'Phabricator can use less-secure but mailing list friendly public reply addresses.' => 'GuGuD can use less-secure but mailing list friendly public reply addresses.',
 
   // src/applications/config/option/PhabricatorMySQLConfigOptions.php:48
-  'Phabricator chooses which database to connect to through a swappable configuration provider. You almost certainly do not need to change this.' => 'gugud chooses which database to connect to through a swappable configuration provider. You almost certainly do not need to change this.',
+  'Phabricator chooses which database to connect to through a swappable configuration provider. You almost certainly do not need to change this.' => 'GuGuD chooses which database to connect to through a swappable configuration provider. You almost certainly do not need to change this.',
 
   // src/applications/config/option/PhabricatorMySQLConfigOptions.php:63
-  'Phabricator connects to MySQL through a swappable abstraction layer. You can choose an alternate implementation by setting this option. To provide your own implementation, extend `%s`. It is very unlikely that you need to change this.' => 'gugud connects to MySQL through a swappable abstraction layer. You can choose an alternate implementation by setting this option. To provide your own implementation, extend `%s`. It is very unlikely that you need to change this.',
+  'Phabricator connects to MySQL through a swappable abstraction layer. You can choose an alternate implementation by setting this option. To provide your own implementation, extend `%s`. It is very unlikely that you need to change this.' => 'GuGuD connects to MySQL through a swappable abstraction layer. You can choose an alternate implementation by setting this option. To provide your own implementation, extend `%s`. It is very unlikely that you need to change this.',
 
   // src/applications/diffusion/controller/DiffusionServeController.php:378
-  'Phabricator does not support HTTP access to Subversion repositories.' => 'gugud does not support HTTP access to Subversion repositories.',
+  'Phabricator does not support HTTP access to Subversion repositories.' => 'GuGuD does not support HTTP access to Subversion repositories.',
 
   // src/applications/config/check/PhabricatorPygmentSetupCheck.php:45
-  'Phabricator has %s available in %s, but the binary exited with an error code when run as %s. Check that it is installed correctly.' => 'gugud has %s available in %s, but the binary exited with an error code when run as %s. Check that it is installed correctly.',
+  'Phabricator has %s available in %s, but the binary exited with an error code when run as %s. Check that it is installed correctly.' => 'GuGuD has %s available in %s, but the binary exited with an error code when run as %s. Check that it is installed correctly.',
 
   // src/applications/policy/config/PhabricatorPolicyConfigOptions.php:62
-  'Phabricator has application policies which can dictate whether users can take certain actions, such as creating new users. \n\nThis setting allows for "locking" these policies such that no further edits can be made on a per-policy basis.' => 'gugud has application policies which can dictate whether users can take certain actions, such as creating new users. \n\nThis setting allows for "locking" these policies such that no further edits can be made on a per-policy basis.',
+  'Phabricator has application policies which can dictate whether users can take certain actions, such as creating new users. \n\nThis setting allows for "locking" these policies such that no further edits can be made on a per-policy basis.' => 'GuGuD has application policies which can dictate whether users can take certain actions, such as creating new users. \n\nThis setting allows for "locking" these policies such that no further edits can be made on a per-policy basis.',
 
   // src/applications/system/controller/PhabricatorSystemReadOnlyController.php:73
   'Phabricator has consistently been unable to reach the writable ("master") database while processing recent requests.' => null,
 
   // src/applications/auth/provider/PhabricatorPhabricatorAuthProvider.php:109
-  'Phabricator instance name is required.' => 'gugud instance name is required.',
+  'Phabricator instance name is required.' => 'GuGuD instance name is required.',
 
   // src/applications/auth/provider/PhabricatorPhabricatorAuthProvider.php:113
   'Phabricator instance name must contain only lowercase letters, digits, and periods.' => null,
@@ -26513,7 +26513,7 @@ return array(
 
   // src/applications/repository/management/PhabricatorRepositoryManagementLookupUsersWorkflow.php:70
   // src/applications/repository/management/PhabricatorRepositoryManagementLookupUsersWorkflow.php:88
-  'Phabricator user: %s' => 'gugud user: %s',
+  'Phabricator user: %s' => 'GuGuD user: %s',
 
   // src/applications/config/option/PhabricatorSecurityConfigOptions.php:252
   'Phabricator users can make requests to other services from the Phabricator host in some circumstances (for example, by creating a repository with a remote URL or having Phabricator fetch an image from a remote server).\n\nThis may represent a security vulnerability if services on the same subnet will accept commands or reveal private information over unauthenticated HTTP GET, based on the source IP address. In particular, all hosts in EC2 have access to such a service.\n\nThis option defines a list of netblocks which Phabricator will decline to connect to. Generally, you should list all private IP space here.' => null,
@@ -27840,7 +27840,7 @@ return array(
   'Quantity must be a positive integer.' => null,
 
   // src/applications/search/engine/PhabricatorApplicationSearchEngine.php:440
-  'Queries' => null,
+  'Queries' => '查询',
 
   // src/applications/uiexample/examples/PhabricatorListFilterUIExample.php:25
   // src/applications/search/controller/PhabricatorSearchEditController.php:83
@@ -27848,7 +27848,7 @@ return array(
   // src/applications/typeahead/controller/PhabricatorTypeaheadModularDatasourceController.php:297
   // src/applications/typeahead/controller/PhabricatorTypeaheadModularDatasourceController.php:307
   // src/applications/dashboard/paneltype/PhabricatorDashboardQueryPanelType.php:27
-  'Query' => null,
+  'Query' => '查询',
 
   // src/infrastructure/query/policy/PhabricatorCursorPagedPolicyAwareQuery.php:651
   'Query "%s" does not support a builtin order "%s". Supported orders are: %s.' => null,
@@ -28858,7 +28858,7 @@ return array(
   'Register New Account' => '注册新账号',
 
   // src/applications/auth/controller/PhabricatorAuthRegisterController.php:484
-  'Register Phabricator Account' => '注册GuGuD账号',
+  'Register Phabricator Account' => '注册 GuGuD 账号',
 
   // src/applications/auth/provider/PhabricatorPasswordAuthProvider.php:154
   'Register an Account' => '注册一个账号',
@@ -29337,7 +29337,7 @@ return array(
   // src/applications/maniphest/controller/ManiphestReportController.php:49
   // src/applications/maniphest/controller/ManiphestController.php:21
   // src/applications/maniphest/controller/ManiphestController.php:22
-  'Reports' => null,
+  'Reports' => '报告',
 
   // src/applications/config/controller/PhabricatorConfigClusterRepositoriesController.php:230
   'Repos' => null,
@@ -33753,13 +33753,13 @@ return array(
   // src/applications/uiexample/examples/PHUIHovercardUIExample.php:49
   // src/applications/uiexample/examples/PHUIListExample.php:41
   // src/applications/subscriptions/events/PhabricatorSubscriptionsUIEventListener.php:71
-  'Subscribe' => null,
+  'Subscribe' => '订阅',
 
   // src/applications/owners/storage/PhabricatorOwnersPackage.php:77
-  'Subscribe to Changes' => null,
+  'Subscribe to Changes' => '订阅改变',
 
   // src/applications/maniphest/query/ManiphestTaskSearchEngine.php:237
-  'Subscribed' => null,
+  'Subscribed' => '已订阅',
 
   // src/applications/search/query/PhabricatorSearchApplicationSearchEngine.php:160
   // src/applications/pholio/controller/PholioMockEditController.php:325
@@ -33786,7 +33786,7 @@ return array(
   'Subscription' => '订购',
 
   // src/applications/phortune/controller/PhortuneSubscriptionEditController.php:107
-  'Subscription %d' => null,
+  'Subscription %d' => '订阅 %d',
 
   // src/applications/phortune/worker/PhortuneSubscriptionWorker.php:207
   'Subscription has invalid billing period.' => null,
@@ -33804,7 +33804,7 @@ return array(
   // src/applications/phortune/controller/PhortuneSubscriptionListController.php:92
   // src/applications/subscriptions/application/PhabricatorSubscriptionsApplication.php:6
   // src/applications/subscriptions/engineextension/PhabricatorSubscriptionsEditEngineExtension.php:17
-  'Subscriptions' => null,
+  'Subscriptions' => '订阅',
 
   // src/applications/phortune/query/PhortuneSubscriptionSearchEngine.php:155
   'Subscriptions for %s' => null,
@@ -40634,7 +40634,7 @@ return array(
   'Usernames' => '用户名',
 
   // src/applications/people/storage/PhabricatorUser.php:772
-  'Usernames must contain only numbers, letters, period, underscore and hyphen, and can not end with a period. They must have no more than %d characters.' => null,
+  'Usernames must contain only numbers, letters, period, underscore and hyphen, and can not end with a period. They must have no more than %d characters.' => '用户名必须只包含数字，字母，下划线，连字符。不能超过  %d  字符。',
 
   // src/applications/people/query/PhabricatorPeopleLogSearchEngine.php:119
   // src/applications/people/query/PhabricatorPeopleSearchEngine.php:7
@@ -43032,13 +43032,13 @@ return array(
   'You must choose a name for your build plan.' => null,
 
   // src/applications/auth/controller/PhabricatorAuthRegisterController.php:226
-  'You must choose a password.' => null,
+  'You must choose a password.' => '密码必填',
 
   // src/applications/phortune/controller/PhortuneCartCheckoutController.php:77
   'You must choose a payment method.' => null,
 
   // src/applications/policy/controller/PhabricatorPolicyEditController.php:317
-  'You must choose a project.' => null,
+  'You must choose a project.' => '您必须选择一个项目',
 
   // src/applications/harbormaster/controller/HarbormasterPlanRunController.php:57
   'You must choose a revision or commit to build.' => null,
