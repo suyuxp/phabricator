@@ -7518,7 +7518,7 @@ return array(
   'Autoincrement' => null,
 
   // src/applications/config/module/PhabricatorConfigCollectorsModule.php:24
-  'Automatic' => null,
+  'Automatic' => '自动',
 
   // src/applications/harbormaster/controller/HarbormasterBuildableViewController.php:178
   'Automatic Buildable' => null,
@@ -7541,7 +7541,7 @@ return array(
   // src/applications/subscriptions/events/PhabricatorSubscriptionsUIEventListener.php:43
   // src/applications/subscriptions/controller/PhabricatorSubscriptionsEditController.php:45
   // src/applications/subscriptions/herald/PhabricatorSubscriptionsHeraldAction.php:145
-  'Automatically Subscribed' => null,
+  'Automatically Subscribed' => '自动已订阅',
 
   // src/applications/config/option/PhabricatorDeveloperConfigOptions.php:106
   'Automatically profile some percentage of pages.' => null,
@@ -7604,25 +7604,25 @@ return array(
 
   // src/applications/badges/controller/PhabricatorBadgesAwardController.php:72
   // src/applications/people/controller/PhabricatorPeopleProfileViewController.php:321
-  'Award' => '奖章',
+  'Award' => '赠送',
 
   // src/applications/tokens/controller/PhabricatorTokenGiveController.php:75
-  'Award "%s" Token' => '颁发 "%s" 奖章',
+  'Award "%s" Token' => '赠送 "%s" 标志',
 
   // src/applications/badges/controller/PhabricatorBadgesEditRecipientsController.php:88
-  'Award Badges' => '奖章徽章',
+  'Award Badges' => '赠送徽章',
 
   // src/applications/tokens/event/PhabricatorTokenUIEventListener.php:50
-  'Award Token' => '颁发奖章',
+  'Award Token' => '赠送标志',
 
   // src/applications/tokens/application/PhabricatorTokensApplication.php:22
   'Award and Acquire Trinkets' => null,
 
   // src/applications/people/controller/PhabricatorPeopleProfileViewController.php:283
-  'Awarded by %s' => '奖章由 %s',
+  'Awarded by %s' => '由%s赠送',
 
   // src/applications/badges/view/PhabricatorBadgesRecipientsListView.php:42
-  'Awarded by %s on %s' => '奖章由%s在%s',
+  'Awarded by %s on %s' => '由%s赠送在%s',
 
   // src/applications/people/storage/PhabricatorUser.php:965
   'Away until %s' => null,
@@ -29911,7 +29911,7 @@ return array(
   // src/applications/tokens/controller/PhabricatorTokenGiveController.php:114
   // src/applications/tokens/controller/PhabricatorTokenGiveController.php:119
   // src/applications/tokens/event/PhabricatorTokenUIEventListener.php:56
-  'Rescind Token' => null,
+  'Rescind Token' => '取消颁发',
 
   // src/applications/people/icon/PhabricatorPeopleIconSet.php:120
   'Research' => '搜索',
@@ -37769,16 +37769,16 @@ return array(
   // src/applications/conduit/controller/PhabricatorConduitTokenEditController.php:96
   // src/applications/conduit/controller/PhabricatorConduitTokenController.php:49
   // src/applications/conduit/settings/PhabricatorConduitTokensSettingsPanel.php:75
-  'Token' => null,
+  'Token' => '标志',
 
   // src/applications/phpast/controller/PhabricatorXHPASTViewStreamController.php:25
-  'Token %d: %s' => null,
+  'Token %d: %s' => '标志 %d: %s' ,
 
   // src/applications/tokens/controller/PhabricatorTokenLeaderController.php:43
   'Token Leader Board' => null,
 
   // src/applications/typeahead/controller/PhabricatorTypeaheadFunctionHelpController.php:63
-  'Token Name' => null,
+  'Token Name' => '标志名称',
 
   // src/applications/typeahead/controller/PhabricatorTypeaheadModularDatasourceController.php:310
   'Token Query' => null,
@@ -37799,27 +37799,27 @@ return array(
   // src/applications/tokens/engineextension/PhabricatorTokensCurtainExtension.php:62
   // src/applications/tokens/engineextension/PhabricatorTokenDestructionEngineExtension.php:9
   // src/applications/tokens/event/PhabricatorTokenUIEventListener.php:144
-  'Tokens' => null,
+  'Tokens' => '标志',
 
   // src/applications/tokens/controller/PhabricatorTokenController.php:10
   // src/applications/tokens/controller/PhabricatorTokenGivenController.php:59
-  'Tokens Given' => null,
+  'Tokens Given' => '给标志',
 
   // src/applications/tokens/controller/PhabricatorTokenLeaderController.php:39
-  'Tokens: %s' => null,
+  'Tokens: %s' => '标志：%s',
 
   // src/view/phui/calendar/PHUICalendarWeekView.php:112
-  'Tomorrow' => null,
+  'Tomorrow' => '明天',
 
   // src/applications/ponder/controller/PonderQuestionEditController.php:58
-  'Too Long' => null,
+  'Too Long' => '太长',
 
   // src/applications/settings/panel/PhabricatorPasswordSettingsPanel.php:75
   // src/applications/auth/controller/PhabricatorAuthRegisterController.php:231
-  'Too Short' => null,
+  'Too Short' => '太短',
 
   // src/applications/releeph/field/specification/ReleephSummaryFieldSpecification.php:44
-  'Too long!' => null,
+  'Too long!' => '太长！',
 
   // src/applications/conduit/ssh/ConduitSSHWorkflow.php:23
   'Too many Conduit methods provided.' => null,
