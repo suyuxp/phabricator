@@ -17492,11 +17492,11 @@ return array(
   'Freeing active task leases...' => null,
 
   // src/view/phui/calendar/PHUICalendarMonthView.php:341
-  'Fri' => '星期五',
+  'Fri' => '周五',
 
   // src/view/phui/calendar/PHUICalendarMonthView.php:341
   // src/applications/settings/setting/PhabricatorWeekStartDaySetting.php:36
-  'Friday' => '星期五',
+  'Friday' => '周五',
 
   // src/applications/files/builtin/PhabricatorFilesComposeIconBuiltinFile.php:145
   'Friendly Fruit' => null,
@@ -22048,12 +22048,12 @@ return array(
   'Modules' => null,
 
   // src/view/phui/calendar/PHUICalendarMonthView.php:337
-  'Mon' => null,
+  'Mon' => '周一',
 
   // src/view/phui/calendar/PHUICalendarMonthView.php:337
   // src/applications/uiexample/examples/PHUIObjectItemListExample.php:66
   // src/applications/settings/setting/PhabricatorWeekStartDaySetting.php:32
-  'Monday' => null,
+  'Monday' => '周一',
 
   // src/applications/transactions/editengine/PhabricatorEditEngine.php:644
   'Monogram "%s" does not identify a valid object.' => null,
@@ -22571,27 +22571,27 @@ return array(
 
   // src/applications/people/query/PhabricatorPeopleSearchEngine.php:77
   // src/applications/people/query/PhabricatorPeopleSearchEngine.php:241
-  'Needs Approval' => null,
+  'Needs Approval' => '需要批准',
 
   // src/applications/owners/controller/PhabricatorOwnersDetailController.php:90
-  'Needs Attention' => null,
+  'Needs Attention' => '需要注意',
 
   // src/applications/audit/query/PhabricatorCommitSearchEngine.php:83
-  'Needs Audit' => null,
+  'Needs Audit' => '需要审核',
 
   // src/applications/audit/query/PhabricatorCommitSearchEngine.php:49
-  'Needs Audit By' => null,
+  'Needs Audit By' => '需要审核由',
 
   // src/applications/releeph/query/ReleephRequestSearchEngine.php:134
   // src/applications/releeph/constants/ReleephRequestStatus.php:20
-  'Needs Pull' => null,
+  'Needs Pull' => '需要Pull',
 
   // src/applications/releeph/query/ReleephRequestSearchEngine.php:138
   // src/applications/releeph/constants/ReleephRequestStatus.php:21
   'Needs Revert' => null,
 
   // src/applications/differential/query/DifferentialRevisionSearchEngine.php:136
-  'Needs Review' => null,
+  'Needs Review' => '需要检阅',
 
   // src/applications/differential/query/DifferentialRevisionSearchEngine.php:137
   'Needs Revision' => null,
@@ -23618,10 +23618,10 @@ return array(
   'No matching GitHub account found for %s.' => null,
 
   // src/applications/auth/query/PhabricatorAuthSSHKeySearchEngine.php:101
-  'No matching SSH keys.' => '没有匹配的SSH keys',
+  'No matching SSH keys.' => '没有符合条件的SSH keys',
 
   // src/applications/audit/query/PhabricatorCommitSearchEngine.php:154
-  'No matching audits.' => '没有匹配的审核',
+  'No matching audits.' => '没有符合条件的审核。',
 
   // src/applications/conduit/query/PhabricatorConduitLogSearchEngine.php:202
   'No matching calls in log.' => null,
@@ -25066,19 +25066,19 @@ return array(
   'Open' => null,
 
   // src/applications/audit/query/PhabricatorCommitSearchEngine.php:87
-  'Open Audits' => null,
+  'Open Audits' => '开启的审核',
 
   // src/applications/releeph/query/ReleephBranchSearchEngine.php:90
-  'Open Branches' => null,
+  'Open Branches' => '开启的分支',
 
   // src/applications/maniphest/constants/__tests__/ManiphestTaskStatusTestCase.php:92
-  'Open Closed' => null,
+  'Open Closed' => '开启已关闭',
 
   // src/applications/differential/view/DifferentialRevisionListView.php:136
   'Open Dependencies' => null,
 
   // src/applications/search/query/PhabricatorSearchApplicationSearchEngine.php:178
-  'Open Documents' => null,
+  'Open Documents' => '开放的文档',
 
   // src/applications/maniphest/constants/__tests__/ManiphestTaskStatusTestCase.php:97
   'Open Duplicate' => null,
@@ -30823,11 +30823,11 @@ return array(
   'Samples (%s - %s)' => null,
 
   // src/view/phui/calendar/PHUICalendarMonthView.php:342
-  'Sat' => null,
+  'Sat' => '周六',
 
   // src/view/phui/calendar/PHUICalendarMonthView.php:342
   // src/applications/settings/setting/PhabricatorWeekStartDaySetting.php:37
-  'Saturday' => null,
+  'Saturday' => '周六',
 
   // src/view/form/PHUIPagedFormView.php:257
   // src/applications/releeph/controller/product/ReleephProductEditController.php:195
@@ -33862,11 +33862,11 @@ return array(
   'Summary' => null,
 
   // src/view/phui/calendar/PHUICalendarMonthView.php:336
-  'Sun' => '星期天',
+  'Sun' => '周日',
 
   // src/view/phui/calendar/PHUICalendarMonthView.php:336
   // src/applications/settings/setting/PhabricatorWeekStartDaySetting.php:31
-  'Sunday' => '星期天',
+  'Sunday' => '周日',
 
   // src/applications/badges/icon/PhabricatorBadgesIconSet.php:14
   'Superstar' => null,
@@ -33984,7 +33984,7 @@ return array(
   'TABLE SCAN!' => null,
 
   // src/applications/repository/customfield/PhabricatorCommitTagsField.php:48
-  'TAGS' => null,
+  'TAGS' => '标签',
 
   // src/applications/maniphest/editor/ManiphestTransactionEditor.php:360
   'TASK DESCRIPTION' => '任务描述',
@@ -34089,13 +34089,13 @@ return array(
   // src/applications/maniphest/export/ManiphestExcelDefaultFormat.php:61
   // src/applications/diviner/controller/DivinerBookEditController.php:78
   // src/applications/calendar/controller/PhabricatorCalendarEventEditController.php:462
-  'Tags' => null,
+  'Tags' => '标签',
 
   // src/applications/diffusion/controller/DiffusionController.php:170
-  'Tags for %s' => null,
+  'Tags for %s' => '%s标签',
 
   // src/applications/transactions/editengine/PhabricatorEditEngine.php:247
-  'Take Action' => null,
+  'Take Action' => '采取行动',
 
   // src/applications/repository/management/PhabricatorRepositoryManagementClusterizeWorkflow.php:23
   'Take repositories out of a cluster.' => null,
@@ -34114,10 +34114,10 @@ return array(
 
   // src/infrastructure/storage/management/workflow/PhabricatorStorageManagementWorkflow.php:376
   // src/infrastructure/storage/management/workflow/PhabricatorStorageManagementWorkflow.php:655
-  'Target' => null,
+  'Target' => '目标',
 
   // src/applications/harbormaster/controller/HarbormasterBuildableViewController.php:261
-  'Target %d' => null,
+  'Target %d' => '目标%d',
 
   // src/applications/maniphest/editor/ManiphestEditEngine.php:49
   // src/infrastructure/graph/ManiphestTaskGraph.php:85
@@ -37491,7 +37491,7 @@ return array(
   'Throw an exception.' => null,
 
   // src/view/phui/calendar/PHUICalendarMonthView.php:340
-  'Thu' => null,
+  'Thu' => '周四',
 
   // src/applications/files/transform/PhabricatorFileThumbnailTransform.php:70
   'Thumbgrid (100px)' => null,
@@ -37502,7 +37502,7 @@ return array(
   // src/view/phui/calendar/PHUICalendarMonthView.php:340
   // src/applications/uiexample/examples/PHUIObjectItemListExample.php:78
   // src/applications/settings/setting/PhabricatorWeekStartDaySetting.php:35
-  'Thursday' => null,
+  'Thursday' => '周四',
 
   // src/applications/differential/customfield/DifferentialRevisionIDField.php:22
   'Ties commits to revisions and provides a permanent link between them.' => null,
@@ -38187,12 +38187,12 @@ return array(
   'Trying to update Task %d (%s) after lease expiration!' => null,
 
   // src/view/phui/calendar/PHUICalendarMonthView.php:338
-  'Tue' => null,
+  'Tue' => '周二',
 
   // src/view/phui/calendar/PHUICalendarMonthView.php:338
   // src/applications/uiexample/examples/PHUIObjectItemListExample.php:70
   // src/applications/settings/setting/PhabricatorWeekStartDaySetting.php:33
-  'Tuesday' => null,
+  'Tuesday' => '周二',
 
   // src/applications/people/controller/PhabricatorPeopleDeleteController.php:70
   'Turn Back' => null,
@@ -41489,12 +41489,12 @@ return array(
   'Webserver Config' => null,
 
   // src/view/phui/calendar/PHUICalendarMonthView.php:339
-  'Wed' => null,
+  'Wed' => '周三',
 
   // src/view/phui/calendar/PHUICalendarMonthView.php:339
   // src/applications/uiexample/examples/PHUIObjectItemListExample.php:74
   // src/applications/settings/setting/PhabricatorWeekStartDaySetting.php:34
-  'Wednesday' => null,
+  'Wednesday' => '周三',
 
   // src/applications/settings/setting/PhabricatorWeekStartDaySetting.php:9
   'Week Starts On' => null,
