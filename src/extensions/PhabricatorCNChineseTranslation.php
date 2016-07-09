@@ -6897,22 +6897,22 @@ return array(
 
   // src/applications/repository/management/PhabricatorRepositoryManagementReparseWorkflow.php:188
   // src/infrastructure/storage/management/workflow/PhabricatorStorageManagementUpgradeWorkflow.php:53
-  'Are you ready to continue?' => null,
+  'Are you ready to continue?' => '准备好继续了吗？',
 
   // src/applications/slowvote/controller/PhabricatorSlowvoteCloseController.php:54
-  'Are you sure you want to close the poll?' => null,
+  'Are you sure you want to close the poll?' => '确定关闭此投票？',
 
   // src/applications/countdown/controller/PhabricatorCountdownDeleteController.php:31
-  'Are you sure you want to delete the countdown %s?' => null,
+  'Are you sure you want to delete the countdown %s?' => '确定删除倒计时%s?',
 
   // src/applications/settings/panel/PhabricatorEmailAddressesSettingsPanel.php:306
-  'Are you sure you want to delete this address? You will no longer be able to use it to login.' => null,
+  'Are you sure you want to delete this address? You will no longer be able to use it to login.' => '确定删除此地址？您将不再能用它登入。',
 
   // src/applications/metamta/applicationpanel/PhabricatorMetaMTAApplicationEmailPanel.php:320
-  'Are you sure you want to delete this email address?' => null,
+  'Are you sure you want to delete this email address?' => '确定删除此邮箱地址吗？',
 
   // src/applications/harbormaster/controller/HarbormasterStepDeleteController.php:36
-  'Are you sure you want to delete this step? This can\'t be undone!' => null,
+  'Are you sure you want to delete this step? This can\'t be undone!' => '确定删除这步？这是无法弥补的!',
 
   // src/applications/lipsum/management/PhabricatorLipsumGenerateWorkflow.php:105
   'Are you sure you want to generate piles of garbage?' => null,
@@ -6921,25 +6921,25 @@ return array(
   'Are you sure you want to hide this column? It will no longer appear on the workboard.' => null,
 
   // src/applications/conpherence/controller/ConpherenceUpdateController.php:356
-  'Are you sure you want to leave this room?' => null,
+  'Are you sure you want to leave this room?' => '确定离开此房间？',
 
   // src/applications/auth/controller/PhabricatorLogoutController.php:56
-  'Are you sure you want to log out?' => null,
+  'Are you sure you want to log out?' => '确定注销？',
 
   // src/applications/dashboard/controller/PhabricatorDashboardRemovePanelController.php:67
-  'Are you sure you want to remove this panel?' => null,
+  'Are you sure you want to remove this panel?' => '确定移除此面板？',
 
   // src/applications/slowvote/controller/PhabricatorSlowvoteCloseController.php:50
-  'Are you sure you want to reopen the poll?' => null,
+  'Are you sure you want to reopen the poll?' => '确定重开此投票？',
 
   // src/applications/project/controller/PhabricatorProjectColumnHideController.php:121
-  'Are you sure you want to show this column?' => null,
+  'Are you sure you want to show this column?' => '确定显示此列？',
 
   // src/applications/dashboard/controller/PhabricatorDashboardUninstallController.php:102
-  'Are you sure you want to uninstall this dashboard as the home page for %s?' => null,
+  'Are you sure you want to uninstall this dashboard as the home page for %s?' => '确定取消此仪表盘作为%s主页？',
 
   // src/applications/dashboard/controller/PhabricatorDashboardUninstallController.php:89
-  'Are you sure you want to uninstall this dashboard as your home page?' => null,
+  'Are you sure you want to uninstall this dashboard as your home page?' => '确定取消此仪表盘作为您的的主页？',
 
   // src/applications/lipsum/management/PhabricatorLipsumGenerateWorkflow.php:82
   'Argument "%s" does not match the name of any generators.' => null,
@@ -6961,10 +6961,10 @@ return array(
 
   // src/applications/uiexample/examples/PHUIDocumentExample.php:190
   // src/applications/diviner/atom/DivinerAtom.php:419
-  'Article' => null,
+  'Article' => '文章',
 
   // src/applications/diviner/atomizer/DivinerArticleAtomizer.php:19
-  'Article has no %s!' => null,
+  'Article has no %s!' => '文章没有%s！',
 
   // src/applications/harbormaster/storage/build/HarbormasterBuildTarget.php:245
   'Artifact "%s" not found!' => null,
@@ -7403,20 +7403,20 @@ return array(
   // src/applications/macro/query/PhabricatorMacroSearchEngine.php:102
   // src/applications/paste/query/PhabricatorPasteSearchEngine.php:99
   // src/applications/herald/query/HeraldRuleSearchEngine.php:105
-  'Authored' => '已任命',
+  'Authored' => '已发起',
 
   // src/applications/pholio/controller/PholioMockViewController.php:170
   // src/applications/maniphest/controller/ManiphestTaskDetailController.php:257
-  'Authored By' => '任命由',
+  'Authored By' => '发起人',
 
   // src/applications/audit/query/PhabricatorCommitSearchEngine.php:90
   'Authored Commits' => '已任务提交',
 
   // src/infrastructure/daemon/workers/query/PhabricatorWorkerBulkJobSearchEngine.php:45
-  'Authored Jobs' => '已任命工作',
+  'Authored Jobs' => '已发起工作',
 
   // src/applications/herald/query/HeraldRuleSearchEngine.php:187
-  'Authored by %s' => '任命由 %s',
+  'Authored by %s' => '发起人 %s',
 
   // src/applications/diffusion/controller/DiffusionCommitController.php:657
   // src/applications/differential/controller/DifferentialRevisionViewController.php:525
@@ -10474,7 +10474,7 @@ return array(
   // src/applications/maniphest/controller/ManiphestTaskDetailController.php:331
   // src/applications/people/engine/PhabricatorPeopleProfilePanelEngine.php:73
   // src/applications/audit/query/PhabricatorCommitSearchEngine.php:7
-  'Commits' => null,
+  'Commits' => '提交',
 
   // src/applications/repository/storage/PhabricatorRepositoryCommit.php:362
   'Commits inherit the policies of the repository they belong to.' => null,
@@ -10484,7 +10484,7 @@ return array(
   // src/applications/diffusion/view/DiffusionBrowseTableView.php:123
   // src/applications/diffusion/view/DiffusionBranchTableView.php:139
   // src/applications/audit/storage/PhabricatorAuditTransaction.php:103
-  'Committed' => null,
+  'Committed' => '已提交',
 
   // src/applications/diffusion/herald/DiffusionCommitCommitterHeraldField.php:9
   // src/applications/diffusion/herald/DiffusionPreCommitContentCommitterHeraldField.php:9
@@ -33325,7 +33325,7 @@ return array(
   // src/infrastructure/graph/ManiphestTaskGraph.php:83
   // src/infrastructure/graph/DifferentialRevisionGraph.php:70
   // src/infrastructure/storage/management/workflow/PhabricatorStorageManagementStatusWorkflow.php:35
-  'Status' => null,
+  'Status' => '状态',
 
   // src/applications/maniphest/constants/ManiphestTaskStatus.php:305
   'Status "%s" is marked as default, but it is a closed status. The default status should be an open status.' => null,
@@ -33338,22 +33338,22 @@ return array(
 
   // src/applications/metamta/controller/PhabricatorMetaMTAMailViewController.php:375
   // src/applications/daemon/controller/PhabricatorDaemonLogViewController.php:143
-  'Status Details' => null,
+  'Status Details' => '状态明细',
 
   // src/applications/uiexample/examples/PhabricatorStatusUIExample.php:6
-  'Status List' => null,
+  'Status List' => '状态列表',
 
   // src/applications/uiexample/examples/PHUIFeedStoryExample.php:152
-  'Status Story' => null,
+  'Status Story' => '状态故事',
 
   // src/applications/uiexample/examples/PHUIListExample.php:260
-  'Status Tabs' => null,
+  'Status Tabs' => '状态标签',
 
   // src/applications/diffusion/view/DiffusionBranchTableView.php:79
-  'Status Unknown' => null,
+  'Status Unknown' => '未知状态',
 
   // src/applications/maniphest/editor/ManiphestEditEngine.php:193
-  'Status of the task.' => null,
+  'Status of the task.' => '此任务状态',
 
   // src/applications/maniphest/conduit/ManiphestConduitAPIMethod.php:89
   'Status set to invalid value.' => null,
@@ -33361,17 +33361,17 @@ return array(
   // src/applications/metamta/management/PhabricatorMailManagementShowOutboundWorkflow.php:75
   // src/applications/metamta/management/PhabricatorMailManagementShowInboundWorkflow.php:55
   // src/infrastructure/sms/management/PhabricatorSMSManagementShowOutboundWorkflow.php:55
-  'Status: %s' => null,
+  'Status: %s' => '状态：%s',
 
   // src/applications/fund/query/FundInitiativeSearchEngine.php:56
   // src/applications/maniphest/query/ManiphestTaskSearchEngine.php:62
   // src/applications/drydock/query/DrydockLeaseSearchEngine.php:49
   // src/applications/drydock/query/DrydockResourceSearchEngine.php:49
   // src/applications/harbormaster/query/HarbormasterBuildableSearchEngine.php:35
-  'Statuses' => null,
+  'Statuses' => '状态',
 
   // src/applications/auth/controller/PhabricatorAuthDowngradeSessionController.php:44
-  'Stay' => null,
+  'Stay' => '停留',
 
   // src/applications/calendar/icon/PhabricatorCalendarIconSet.php:22
   'Staycation' => null,
@@ -33401,7 +33401,7 @@ return array(
   'Still Importing...' => null,
 
   // src/applications/phrequent/query/PhrequentSearchEngine.php:181
-  'Stop' => null,
+  'Stop' => '停止',
 
   // src/applications/config/option/PhabricatorDeveloperConfigOptions.php:86
   'Stop Before HTTP Redirect' => null,
@@ -33719,7 +33719,7 @@ return array(
   'Subpath to selectively import.' => null,
 
   // src/applications/multimeter/storage/MultimeterEvent.php:37
-  'Subprocesses' => null,
+  'Subprocesses' => '子过程',
 
   // src/applications/project/controller/PhabricatorProjectSubprojectsController.php:67
   // src/applications/project/controller/PhabricatorProjectSubprojectsController.php:98
@@ -33728,10 +33728,10 @@ return array(
   // src/applications/project/controller/PhabricatorProjectEditController.php:104
   // src/applications/project/controller/PhabricatorProjectProfileController.php:285
   // src/applications/project/profilepanel/PhabricatorProjectSubprojectsProfilePanel.php:13
-  'Subprojects' => '项目批次',
+  'Subprojects' => '子项目',
 
   // src/applications/project/controller/PhabricatorProjectSubprojectsController.php:102
-  'Subprojects and Milestones' => '项目批次和里程碑',
+  'Subprojects and Milestones' => '子项目和里程碑',
 
   // src/applications/project/controller/PhabricatorProjectSubprojectsController.php:135
   'Subprojects and milestones are only partially implemented.' => null,
@@ -33756,7 +33756,7 @@ return array(
   'Subscribe' => '订阅',
 
   // src/applications/owners/storage/PhabricatorOwnersPackage.php:77
-  'Subscribe to Changes' => '订阅改变',
+  'Subscribe to Changes' => '订阅的变化',
 
   // src/applications/maniphest/query/ManiphestTaskSearchEngine.php:237
   'Subscribed' => '已订阅',
@@ -33987,22 +33987,22 @@ return array(
   'TAGS' => null,
 
   // src/applications/maniphest/editor/ManiphestTransactionEditor.php:360
-  'TASK DESCRIPTION' => null,
+  'TASK DESCRIPTION' => '任务描述',
 
   // src/applications/maniphest/editor/ManiphestTransactionEditor.php:365
-  'TASK DETAIL' => null,
+  'TASK DETAIL' => '任务明细',
 
   // src/applications/differential/customfield/DifferentialTestPlanField.php:193
-  'TEST PLAN' => null,
+  'TEST PLAN' => '测试计划',
 
   // src/applications/harbormaster/controller/HarbormasterUnitMessageViewController.php:44
-  'TEST RESULT' => null,
+  'TEST RESULT' => '测试结果',
 
   // src/applications/metamta/management/PhabricatorMailManagementShowOutboundWorkflow.php:156
-  'TEXT BODY' => null,
+  'TEXT BODY' => '测试主体',
 
   // src/infrastructure/storage/management/workflow/PhabricatorStorageManagementProbeWorkflow.php:89
-  'TOTAL' => null,
+  'TOTAL' => '总数',
 
   // src/applications/auth/factor/PhabricatorTOTPAuthFactor.php:136
   'TOTP Code' => null,
@@ -34121,43 +34121,43 @@ return array(
 
   // src/applications/maniphest/editor/ManiphestEditEngine.php:49
   // src/infrastructure/graph/ManiphestTaskGraph.php:85
-  'Task' => null,
+  'Task' => '任务',
 
   // src/infrastructure/daemon/workers/storage/PhabricatorWorkerActiveTask.php:159
   'Task % has exceeded the maximum number of failures (%d).' => null,
 
   // src/applications/daemon/controller/PhabricatorWorkerTaskDetailController.php:31
-  'Task %d' => null,
+  'Task %d' => '任务%d',
 
   // src/infrastructure/daemon/workers/management/PhabricatorWorkerManagementWorkflow.php:55
-  'Task %d (%s)' => null,
+  'Task %d (%s)' => '任务 %d (%s)',
 
   // src/infrastructure/daemon/workers/PhabricatorTaskmasterDaemon.php:32
-  'Task %d failed!' => null,
+  'Task %d failed!' => '任务%d失败！',
 
   // src/applications/daemon/controller/PhabricatorWorkerTaskDetailController.php:34
-  'Task %d: %s' => null,
+  'Task %d: %s' => '任务 %d: %s',
 
   // src/infrastructure/daemon/workers/PhabricatorTaskmasterDaemon.php:38
-  'Task %s complete! Moved to archive.' => null,
+  'Task %s complete! Moved to archive.' => '任务%s完成！已移到归档。',
 
   // src/infrastructure/daemon/workers/PhabricatorTaskmasterDaemon.php:30
-  'Task %s yielded.' => null,
+  'Task %s yielded.' => '任务%s放弃。',
 
   // src/applications/maniphest/__tests__/ManiphestTaskTestCase.php:14
-  'Task 1' => null,
+  'Task 1' => '任务1',
 
   // src/applications/maniphest/__tests__/ManiphestTaskTestCase.php:15
-  'Task 2' => null,
+  'Task 2' => '任务2',
 
   // src/applications/maniphest/__tests__/ManiphestTaskTestCase.php:16
-  'Task 3' => null,
+  'Task 3' => '任务3',
 
   // src/applications/maniphest/policyrule/ManiphestTaskAuthorPolicyRule.php:11
-  'Task Author' => null,
+  'Task Author' => '任务发起人',
 
   // src/applications/maniphest/__tests__/ManiphestTaskTestCase.php:98
-  'Task Block %d' => null,
+  'Task Block %d' => '任务块 %d',
 
   // src/applications/maniphest/controller/ManiphestReportController.php:255
   'Task Burn Rate for All Tasks' => null,
@@ -34166,7 +34166,7 @@ return array(
   'Task Burn Rate for Project %s' => null,
 
   // src/applications/daemon/controller/PhabricatorWorkerTaskDetailController.php:106
-  'Task Class' => null,
+  'Task Class' => '任务类别',
 
   // src/applications/diffusion/management/DiffusionRepositoryStatusManagementPanel.php:299
   'Task Daemon Not Running' => null,
@@ -34178,16 +34178,16 @@ return array(
   'Task Does Not Exist' => null,
 
   // src/applications/maniphest/herald/ManiphestTaskHeraldFieldGroup.php:8
-  'Task Fields' => null,
+  'Task Fields' => '任务字段',
 
   // src/applications/maniphest/controller/ManiphestTaskDetailController.php:96
-  'Task Graph' => null,
+  'Task Graph' => '任务图表',
 
   // src/applications/uiexample/examples/PHUIBadgeExample.php:73
-  'Task Master' => null,
+  'Task Master' => '任务人',
 
   // src/applications/daemon/controller/PhabricatorWorkerTaskDetailController.php:102
-  'Task Status' => null,
+  'Task Status' => '任务状态',
 
   // src/applications/diffusion/config/PhabricatorDiffusionConfigOptions.php:93
   'Task T123' => null,
@@ -34199,7 +34199,7 @@ return array(
   'Task class \'%s\' does not extend %s.' => null,
 
   // src/applications/maniphest/editor/ManiphestEditEngine.php:234
-  'Task description.' => null,
+  'Task description.' => '任务描述',
 
   // src/applications/transactions/worker/PhabricatorApplicationTransactionPublishWorker.php:34
   'Task has invalid task data.' => null,
@@ -34226,7 +34226,7 @@ return array(
   // src/applications/maniphest/query/ManiphestTaskSearchEngine.php:34
   // src/applications/maniphest/export/ManiphestExcelDefaultFormat.php:26
   // src/applications/diviner/controller/DivinerAtomController.php:150
-  'Tasks' => null,
+  'Tasks' => '任务',
 
   // src/applications/maniphest/application/PhabricatorManiphestApplication.php:10
   'Tasks and Bugs' => '任务与错误',
@@ -34247,14 +34247,14 @@ return array(
   'Tasks with the same priority should be FIFO.' => null,
 
   // src/applications/files/builtin/PhabricatorFilesComposeIconBuiltinFile.php:206
-  'Team' => null,
+  'Team' => '团队',
 
   // src/applications/releeph/controller/product/ReleephProductEditController.php:101
   'Template error: %s' => null,
 
   // src/applications/files/controller/PhabricatorFileInfoController.php:46
   // src/applications/files/query/PhabricatorFileSearchEngine.php:157
-  'Temporary' => null,
+  'Temporary' => '临时的',
 
   // src/applications/daemon/controller/PhabricatorDaemonConsoleController.php:67
   'Temporary Failures' => null,
@@ -34326,7 +34326,7 @@ return array(
   // src/applications/base/controller/__tests__/PhabricatorTestApplication.php:8
   // src/applications/conpherence/__tests__/ConpherenceRoomTestCase.php:146
   // src/applications/harbormaster/view/HarbormasterUnitPropertyView.php:135
-  'Test' => null,
+  'Test' => '测试',
 
   // src/applications/diffusion/controller/DiffusionRepositoryTestAutomationController.php:51
   'Test Automation Configuration' => null,
@@ -34353,11 +34353,11 @@ return array(
   'Test Payments' => null,
 
   // src/applications/differential/customfield/DifferentialTestPlanField.php:15
-  'Test Plan' => null,
+  'Test Plan' => '测试计划',
 
   // src/applications/project/__tests__/PhabricatorProjectCoreTestCase.php:441
   // src/applications/project/__tests__/PhabricatorProjectCoreTestCase.php:1378
-  'Test Project %d' => null,
+  'Test Project %d' => '测试项目%d',
 
   // src/applications/repository/storage/__tests__/PhabricatorRepositoryURITestCase.php:71
   'Test Repo' => null,
@@ -34372,7 +34372,7 @@ return array(
   'Test Space' => null,
 
   // src/applications/project/__tests__/PhabricatorProjectCoreTestCase.php:1274
-  'Test Task' => null,
+  'Test Task' => '测试任务',
 
   // src/infrastructure/testing/PhabricatorTestCase.php:193
   'Test User %s' => null,
@@ -34398,7 +34398,7 @@ return array(
   // src/applications/dashboard/paneltype/PhabricatorDashboardTextPanelType.php:23
   // src/applications/paste/editor/PhabricatorPasteEditEngine.php:97
   // src/applications/celerity/CelerityResourceMapGenerator.php:95
-  'Text' => null,
+  'Text' => '文本',
 
   // src/applications/diffusion/editor/DiffusionRepositoryEditEngine.php:151
   // src/applications/diffusion/editor/DiffusionRepositoryEditEngine.php:284
@@ -36965,19 +36965,19 @@ return array(
   'This process will spend %s more second(s) attempting to recover, then give up.' => null,
 
   // src/applications/project/view/PhabricatorProjectMemberListView.php:21
-  'This project does not have any members.' => null,
+  'This project does not have any members.' => '此项目没有成员。',
 
   // src/applications/project/view/PhabricatorProjectWatcherListView.php:17
-  'This project does not have any watchers.' => null,
+  'This project does not have any watchers.' => '此项目没有关注者。',
 
   // src/applications/project/controller/PhabricatorProjectLockController.php:36
   'This project does not support editing membership.' => null,
 
   // src/applications/project/controller/PhabricatorProjectSubprojectsController.php:155
-  'This project has milestones.' => null,
+  'This project has milestones.' => '此项目有里程碑。',
 
   // src/applications/project/controller/PhabricatorProjectSubprojectsController.php:179
-  'This project has subprojects.' => null,
+  'This project has subprojects.' => '此项目有子项目。',
 
   // src/applications/project/controller/PhabricatorProjectSubprojectsController.php:166
   'This project is a milestone, and milestones may not have subprojects.' => null,
@@ -36986,10 +36986,10 @@ return array(
   'This project is already a milestone, and milestones may not have their own milestones.' => null,
 
   // src/applications/project/controller/PhabricatorProjectArchiveController.php:54
-  'This project will be moved to the archive.' => null,
+  'This project will be moved to the archive.' => '此项目将归档。',
 
   // src/applications/project/controller/PhabricatorProjectArchiveController.php:50
-  'This project will become active again.' => null,
+  'This project will become active again.' => '此项目将再次激活。',
 
   // src/applications/uiexample/examples/PHUIPropertyListExample.php:95
   'This property label and property value are quite long. They demonstrate the wrapping behavior of the element, or lack thereof if something terrible has happened.' => null,
@@ -40535,7 +40535,7 @@ return array(
   'User account is not permitted to use the API.' => null,
 
   // src/applications/people/controller/PhabricatorPeopleProfileViewController.php:163
-  'User does not belong to any projects.' => null,
+  'User does not belong to any projects.' => '您不属于任何项目。',
 
   // src/applications/people/controller/PhabricatorPeopleProfileViewController.php:299
   'User does not have any badges.' => null,
