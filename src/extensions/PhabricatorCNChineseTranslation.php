@@ -34114,10 +34114,10 @@ return array(
 
   // src/infrastructure/storage/management/workflow/PhabricatorStorageManagementWorkflow.php:376
   // src/infrastructure/storage/management/workflow/PhabricatorStorageManagementWorkflow.php:655
-  'Target' => '目标',
+  'Target' => null,
 
   // src/applications/harbormaster/controller/HarbormasterBuildableViewController.php:261
-  'Target %d' => '目标%d',
+  'Target %d' => null,
 
   // src/applications/maniphest/editor/ManiphestEditEngine.php:49
   // src/infrastructure/graph/ManiphestTaskGraph.php:85
