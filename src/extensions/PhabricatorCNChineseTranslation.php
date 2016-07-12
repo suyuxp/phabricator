@@ -1137,13 +1137,13 @@ return array(
   '%s changed who can see the responses.' => null,
 
   // src/infrastructure/customfield/standard/PhabricatorStandardCustomFieldBool.php:110
-  '%s checked %s.' => null,
+  '%s checked %s.' => '%s检查了%s。',
 
   // src/applications/maniphest/storage/ManiphestTransaction.php:782
-  '%s claimed %s.' => null,
+  '%s claimed %s.' => '%s 认领了 %s.',
 
   // src/applications/maniphest/storage/ManiphestTransaction.php:530
-  '%s claimed this task.' => null,
+  '%s claimed this task.' => '%s已认领了此任务。',
 
   // src/infrastructure/edges/type/PhabricatorEdgeType.php:20
   '%s class "%s" has an invalid %s property. Edge constants must be positive integers.' => null,
@@ -4529,7 +4529,7 @@ return array(
   // src/infrastructure/daemon/workers/management/PhabricatorWorkerManagementFreeWorkflow.php:26
   // src/infrastructure/daemon/workers/management/PhabricatorWorkerManagementExecuteWorkflow.php:26
   // src/infrastructure/daemon/workers/management/PhabricatorWorkerManagementCancelWorkflow.php:26
-  'ARCHIVED' => null,
+  'ARCHIVED' => '已归档',
 
   // src/applications/metamta/management/PhabricatorMailManagementShowOutboundWorkflow.php:119
   // src/applications/metamta/management/PhabricatorMailManagementShowInboundWorkflow.php:92
@@ -6768,7 +6768,7 @@ return array(
 
   // src/applications/phame/controller/post/PhamePostViewController.php:230
   // src/applications/phame/controller/post/PhamePostViewController.php:253
-  'Archive' => null,
+  'Archive' => '归档',
 
   // src/applications/badges/controller/PhabricatorBadgesArchiveController.php:53
   // src/applications/badges/controller/PhabricatorBadgesArchiveController.php:58
@@ -6778,12 +6778,12 @@ return array(
   // src/applications/phame/controller/blog/PhameBlogArchiveController.php:53
   // src/applications/phame/controller/blog/PhameBlogArchiveController.php:55
   // src/applications/phame/controller/blog/PhameBlogManageController.php:221
-  'Archive Blog' => null,
+  'Archive Blog' => '归档Blog',
 
   // src/applications/dashboard/controller/PhabricatorDashboardManageController.php:145
   // src/applications/dashboard/controller/PhabricatorDashboardArchiveController.php:53
   // src/applications/dashboard/controller/PhabricatorDashboardArchiveController.php:55
-  'Archive Dashboard' => null,
+  'Archive Dashboard' => '归档仪表盘',
 
   // src/applications/macro/controller/PhabricatorMacroViewController.php:119
   'Archive Macro' => null,
@@ -6791,14 +6791,14 @@ return array(
   // src/applications/owners/controller/PhabricatorOwnersDetailController.php:255
   // src/applications/owners/controller/PhabricatorOwnersArchiveController.php:53
   // src/applications/owners/controller/PhabricatorOwnersArchiveController.php:55
-  'Archive Package' => null,
+  'Archive Package' => '归档包',
 
   // src/applications/dashboard/controller/PhabricatorDashboardPanelArchiveController.php:50
   // src/applications/dashboard/controller/PhabricatorDashboardPanelViewController.php:108
-  'Archive Panel' => null,
+  'Archive Panel' => '归档面板',
 
   // src/applications/dashboard/controller/PhabricatorDashboardPanelArchiveController.php:46
-  'Archive Panel?' => null,
+  'Archive Panel?' => '归档面板？',
 
   // src/applications/paste/controller/PhabricatorPasteViewController.php:144
   // src/applications/paste/controller/PhabricatorPasteArchiveController.php:53
@@ -6811,11 +6811,11 @@ return array(
 
   // src/applications/project/controller/PhabricatorProjectArchiveController.php:55
   // src/applications/project/controller/PhabricatorProjectManageController.php:117
-  'Archive Project' => null,
+  'Archive Project' => '归档项目',
 
   // src/applications/herald/controller/HeraldDisableController.php:49
   // src/applications/herald/controller/HeraldRuleViewController.php:93
-  'Archive Rule' => null,
+  'Archive Rule' => '归档规则',
 
   // src/applications/spaces/controller/PhabricatorSpacesArchiveController.php:53
   // src/applications/spaces/controller/PhabricatorSpacesViewController.php:134
@@ -6825,10 +6825,10 @@ return array(
   'Archive Space: %s' => null,
 
   // src/applications/project/controller/PhabricatorProjectColumnHideController.php:116
-  'Archive Subproject' => null,
+  'Archive Subproject' => '归档子项目',
 
   // src/applications/project/controller/PhabricatorProjectColumnHideController.php:111
-  'Archive and Hide Column' => null,
+  'Archive and Hide Column' => '归档和隐藏列',
 
   // src/applications/owners/editor/PhabricatorOwnersPackageEditEngine.php:156
   'Archive or enable the package.' => null,
@@ -6862,29 +6862,29 @@ return array(
   // src/applications/phame/constants/PhameConstants.php:13
   // src/applications/phame/constants/PhameConstants.php:21
   // src/applications/phame/storage/PhameBlog.php:105
-  'Archived' => null,
+  'Archived' => '已归档',
 
   // src/applications/phame/query/PhameBlogSearchEngine.php:47
-  'Archived Blogs' => null,
+  'Archived Blogs' => '已归档的Blog',
 
   // src/applications/dashboard/storage/PhabricatorDashboardPanel.php:88
-  'Archived Panels' => null,
+  'Archived Panels' => '已归档的面板',
 
   // src/applications/phame/controller/post/PhamePostViewController.php:55
   // src/applications/phame/query/PhamePostSearchEngine.php:122
-  'Archived Post' => null,
+  'Archived Post' => '已归档的提交',
 
   // src/applications/phame/query/PhamePostSearchEngine.php:63
-  'Archived Posts' => null,
+  'Archived Posts' => '已归档的提交',
 
   // src/applications/daemon/garbagecollector/PhabricatorDaemonTaskGarbageCollector.php:9
-  'Archived Tasks' => null,
+  'Archived Tasks' => '已归档的任务',
 
   // src/applications/phame/storage/PhameBlog.php:384
-  'Archived or active status.' => null,
+  'Archived or active status.' => '已归档或激活状态。',
 
   // src/applications/phame/controller/post/PhamePostViewController.php:106
-  'Archived post by %s.' => null,
+  'Archived post by %s.' => '已归档提交由%s。',
 
   // src/applications/system/management/PhabricatorSystemRemoveDestroyWorkflow.php:138
   'Are you absolutely certain you want to destroy these %s object(s)?' => null,
@@ -7825,26 +7825,26 @@ return array(
   'Basics' => null,
 
   // src/applications/maniphest/view/ManiphestTaskResultListView.php:220
-  'Batch Edit Selected \302\273' => null,
+  'Batch Edit Selected \302\273' => '批量编辑已选择的  \302\273',
 
   // src/applications/project/controller/PhabricatorProjectBoardViewController.php:821
-  'Batch Edit Tasks...' => null,
+  'Batch Edit Tasks...' => '批量编辑任务...',
 
   // src/applications/project/controller/PhabricatorProjectBoardViewController.php:737
-  'Batch Edit Visible Tasks...' => null,
+  'Batch Edit Visible Tasks...' => '批量编辑可见任务...',
 
   // src/applications/maniphest/controller/ManiphestBatchEditController.php:193
   // src/applications/maniphest/controller/ManiphestBatchEditController.php:200
-  'Batch Editor' => null,
+  'Batch Editor' => '批量编辑者',
 
   // src/applications/maniphest/view/ManiphestTaskResultListView.php:263
-  'Batch Task Editor' => null,
+  'Batch Task Editor' => '批量任务编辑者',
 
   // src/applications/people/controller/PhabricatorPeopleDeleteController.php:25
   'Be careful when deleting users! This will permanently and irreversibly destroy this user account.' => null,
 
   // src/applications/people/controller/PhabricatorPeopleRenameController.php:58
-  'Be careful when renaming users!' => null,
+  'Be careful when renaming users!' => '重命名用户时请小心！',
 
   // src/applications/phragment/controller/PhragmentController.php:210
   'Because Phragment generates files (such as ZIP archives and patches) as they are requested, it requires that you configure the `%s` option. This option on it\'s own will also provide additional security when serving files across Phabricator.' => null,
@@ -7868,7 +7868,7 @@ return array(
   'Begin printing at a specific offset.' => null,
 
   // src/applications/macro/controller/PhabricatorMacroAudioController.php:138
-  'Behavior' => null,
+  'Behavior' => '行为',
 
   // src/applications/uiexample/examples/PHUIObjectItemListExample.php:179
   'Believe In Yourself' => null,
@@ -9843,7 +9843,7 @@ return array(
   'City/State' => null,
 
   // src/applications/maniphest/storage/ManiphestTransaction.php:286
-  'Claimed' => null,
+  'Claimed' => '已认领',
 
   // src/applications/search/engineextension/PhabricatorSearchEngineExtensionModule.php:37
   // src/applications/search/engineextension/PhabricatorHovercardEngineExtensionModule.php:37
@@ -11821,7 +11821,7 @@ return array(
   'Create Standard User' => null,
 
   // src/applications/project/controller/PhabricatorProjectSubprojectsController.php:241
-  'Create Subproject' => null,
+  'Create Subproject' => '创建子项目',
 
   // src/applications/uiexample/examples/PHUIHovercardUIExample.php:50
   // src/applications/maniphest/controller/ManiphestTaskDetailController.php:195
@@ -11966,16 +11966,16 @@ return array(
   'Create a new conpherence thread.' => null,
 
   // src/applications/phriction/controller/PhrictionNewController.php:52
-  'Create a new document at' => null,
+  'Create a new document at' => '创建一个新文档在',
 
   // src/applications/paste/conduit/PasteCreateConduitAPIMethod.php:10
-  'Create a new paste.' => null,
+  'Create a new paste.' => '创建一个新粘贴。',
 
   // src/applications/people/controller/PhabricatorPeopleCreateController.php:57
   'Create a new user for use with automated scripts.' => null,
 
   // src/applications/project/conduit/ProjectCreateConduitAPIMethod.php:10
-  'Create a project.' => null,
+  'Create a project.' => '创建一个新项目',
 
   // src/applications/people/controller/PhabricatorPeopleCreateController.php:50
   'Create a standard user account.' => null,
@@ -12023,7 +12023,7 @@ return array(
   'Create reusable, memorable, shorter URLs for easy accessibility.' => null,
 
   // src/applications/phriction/controller/PhrictionDocumentController.php:52
-  'Create this Document' => null,
+  'Create this Document' => '创建此文档',
 
   // src/applications/phortune/view/PhortuneChargeTableView.php:67
   // src/applications/phortune/view/PhortuneSubscriptionTableView.php:75
@@ -12456,7 +12456,7 @@ return array(
   'DELETING OBJECTS OFTEN BREAKS THINGS' => null,
 
   // src/applications/repository/worker/PhabricatorRepositoryPushMailWorker.php:92
-  'DETAILS' => null,
+  'DETAILS' => '详情',
 
   // src/applications/auth/controller/PhabricatorAuthRegisterController.php:636
   'DISABLE APPROVAL QUEUE' => null,
@@ -13724,7 +13724,7 @@ return array(
   // src/applications/files/config/PhabricatorFilesConfigOptions.php:206
   // src/applications/macro/controller/PhabricatorMacroDisableController.php:50
   // src/applications/people/query/PhabricatorPeopleSearchEngine.php:263
-  'Disable' => null,
+  'Disable' => '禁用',
 
   // src/applications/settings/setting/PhabricatorEmailRePrefixSetting.php:44
   'Disable "Re:" Prefix' => null,
@@ -13734,7 +13734,7 @@ return array(
 
   // src/applications/oauthserver/controller/client/PhabricatorOAuthClientViewController.php:97
   // src/applications/oauthserver/controller/client/PhabricatorOAuthClientDisableController.php:49
-  'Disable Application' => null,
+  'Disable Application' => '禁用应用',
 
   // src/applications/diffusion/editor/DiffusionRepositoryEditEngine.php:424
   'Disable Autoclose' => null,
@@ -13753,7 +13753,7 @@ return array(
   'Disable Blueprint' => null,
 
   // src/applications/project/controller/PhabricatorProjectBoardManageController.php:114
-  'Disable Board' => null,
+  'Disable Board' => '禁用Board',
 
   // src/applications/harbormaster/controller/HarbormasterPlanDisableController.php:54
   'Disable Build Plan' => null,
@@ -13777,7 +13777,7 @@ return array(
   // src/applications/transactions/controller/PhabricatorEditEngineConfigurationDisableController.php:46
   // src/applications/transactions/controller/PhabricatorEditEngineConfigurationDisableController.php:49
   // src/applications/transactions/controller/PhabricatorEditEngineConfigurationViewController.php:160
-  'Disable Form' => null,
+  'Disable Form' => '禁用表单',
 
   // src/applications/diffusion/config/PhabricatorDiffusionConfigOptions.php:104
   'Disable HTTP Basic Auth' => null,
@@ -13787,11 +13787,11 @@ return array(
 
   // src/applications/project/controller/PhabricatorProjectSilenceController.php:73
   // src/applications/project/controller/PhabricatorProjectMembersViewController.php:235
-  'Disable Mail' => null,
+  'Disable Mail' => '禁用邮件',
 
   // src/applications/search/engine/PhabricatorProfilePanelEngine.php:799
   // src/applications/search/engine/PhabricatorProfilePanelEngine.php:803
-  'Disable Menu Item' => null,
+  'Disable Menu Item' => '禁用菜单项',
 
   // src/applications/diffusion/editor/DiffusionRepositoryEditEngine.php:411
   'Disable Notifications, Feed, and Herald' => null,
@@ -13848,17 +13848,17 @@ return array(
   // src/applications/people/controller/PhabricatorPeopleProfileManageController.php:162
   // src/applications/people/controller/PhabricatorPeopleDisableController.php:51
   // src/applications/people/controller/PhabricatorPeopleDisableController.php:58
-  'Disable User' => null,
+  'Disable User' => '禁用用户',
 
   // src/applications/people/controller/PhabricatorPeopleDisableController.php:50
-  'Disable User?' => null,
+  'Disable User?' => '禁用用户？',
 
   // src/applications/settings/setting/PhabricatorEmailVarySubjectsSetting.php:48
   'Disable Vary Subjects' => null,
 
   // src/applications/project/controller/PhabricatorProjectBoardDisableController.php:51
   // src/applications/project/controller/PhabricatorProjectBoardDisableController.php:58
-  'Disable Workboard' => null,
+  'Disable Workboard' => '禁用工作面板',
 
   // src/applications/config/option/PhabricatorAccessLogConfigOptions.php:78
   'Disable access log.' => null,
@@ -13928,7 +13928,7 @@ return array(
   // src/applications/config/controller/PhabricatorConfigClusterDatabasesController.php:61
   // src/applications/config/controller/PhabricatorConfigClusterDatabasesController.php:86
   // src/infrastructure/customfield/config/PhabricatorCustomFieldConfigOptionType.php:74
-  'Disabled' => null,
+  'Disabled' => '已禁止',
 
   // src/applications/settings/panel/PhabricatorExternalAccountsSettingsPanel.php:69
   'Disabled (an administrator has disabled login for this account provider).' => null,
@@ -14137,36 +14137,36 @@ return array(
   'Document Fields' => null,
 
   // src/applications/phriction/controller/PhrictionDocumentController.php:427
-  'Document Hierarchy' => null,
+  'Document Hierarchy' => '文档条目',
 
   // src/applications/phriction/controller/PhrictionDiffController.php:174
   // src/applications/phriction/controller/PhrictionHistoryController.php:149
   // src/applications/phriction/controller/PhrictionHistoryController.php:170
-  'Document History' => null,
+  'Document History' => '文档历史',
 
   // src/applications/phriction/controller/PhrictionHistoryController.php:160
-  'Document History: %s' => null,
+  'Document History: %s' => '文档历史: %s',
 
   // src/applications/search/query/PhabricatorSearchApplicationSearchEngine.php:111
-  'Document Status' => null,
+  'Document Status' => '文档状态',
 
   // src/applications/search/query/PhabricatorSearchApplicationSearchEngine.php:124
-  'Document Types' => null,
+  'Document Types' => '文档类型',
 
   // src/applications/uiexample/examples/PHUIDocumentExample.php:6
-  'Document View' => null,
+  'Document View' => '文档视图',
 
   // src/applications/phriction/conduit/PhrictionCreateConduitAPIMethod.php:41
-  'Document already exists!' => null,
+  'Document already exists!' => '文档已存在！',
 
   // src/applications/phriction/editor/PhrictionTransactionEditor.php:513
-  'Document content is required.' => null,
+  'Document content is required.' => '文档内容必须。',
 
   // src/applications/search/fulltextstorage/PhabricatorMySQLFulltextStorageEngine.php:23
-  'Document has no PHID!' => null,
+  'Document has no PHID!' => '文档无ID',
 
   // src/applications/phriction/editor/PhrictionTransactionEditor.php:482
-  'Document title is required.' => null,
+  'Document title is required.' => '文档标题必须。',
 
   // src/applications/uiexample/examples/PHUIDocumentExample.php:62
   // src/applications/uiexample/examples/PHUIListExample.php:62
@@ -14180,7 +14180,7 @@ return array(
   // src/applications/config/controller/PhabricatorConfigClusterDatabasesController.php:206
   // src/applications/config/controller/PhabricatorConfigClusterRepositoriesController.php:253
   // src/applications/config/controller/PhabricatorConfigClusterNotificationsController.php:156
-  'Documentation' => null,
+  'Documentation' => '文档',
 
   // src/applications/diviner/query/DivinerAtomSearchEngine.php:6
   'Documentation Atoms' => null,
@@ -20115,7 +20115,7 @@ return array(
   // src/applications/diffusion/management/DiffusionRepositorySymbolsManagementPanel.php:72
   // src/applications/diffusion/editor/DiffusionRepositoryEditEngine.php:382
   // src/applications/paste/query/PhabricatorPasteSearchEngine.php:56
-  'Languages' => null,
+  'Languages' => '语言',
 
   // src/applications/diffusion/editor/DiffusionRepositoryEditEngine.php:387
   'Languages which define symbols in this repository.' => null,
@@ -20124,7 +20124,7 @@ return array(
   'Large File Storage Not Configured' => null,
 
   // src/applications/config/check/PhabricatorStorageSetupCheck.php:35
-  'Large Files' => null,
+  'Large Files' => '大文件',
 
   // src/applications/config/check/PhabricatorStorageSetupCheck.php:22
   'Large file storage has not been configured, which will limit the maximum size of file uploads. See %s for instructions on configuring uploads and storage.' => null,
@@ -20137,7 +20137,7 @@ return array(
   'Last' => null,
 
   // src/applications/phriction/controller/PhrictionDocumentController.php:256
-  'Last Author' => null,
+  'Last Author' => '上次更新作者',
 
   // src/applications/legalpad/controller/LegalpadDocumentManageController.php:159
   'Last Updated' => null,
@@ -20841,11 +20841,11 @@ return array(
 
   // src/applications/diffusion/controller/DiffusionSymbolController.php:123
   // src/applications/harbormaster/view/HarbormasterLintPropertyView.php:67
-  'Location' => null,
+  'Location' => '位置',
 
   // src/applications/transactions/controller/PhabricatorEditEngineConfigurationViewController.php:148
   // src/applications/transactions/controller/PhabricatorEditEngineConfigurationLockController.php:110
-  'Lock / Hide Fields' => null,
+  'Lock / Hide Fields' => '锁定/隐藏字段',
 
   // src/applications/policy/config/PhabricatorPolicyConfigOptions.php:68
   'Lock Create User Policy To Admins' => null,
@@ -20866,7 +20866,7 @@ return array(
   // src/applications/project/controller/PhabricatorProjectLockController.php:71
   // src/applications/project/controller/PhabricatorProjectLockController.php:75
   // src/applications/project/controller/PhabricatorProjectMembersViewController.php:263
-  'Lock Project' => null,
+  'Lock Project' => '锁定项目',
 
   // src/infrastructure/util/PhabricatorGlobalLock.php:50
   'Lock name "%s" is too long (full lock name is "%s"). The full lock name must not be longer than %s bytes.' => null,
@@ -20877,16 +20877,16 @@ return array(
   // src/applications/nuance/github/NuanceGitHubRawEvent.php:310
   // src/applications/transactions/editfield/PhabricatorEditField.php:367
   // src/applications/config/controller/PhabricatorConfigGroupController.php:97
-  'Locked' => null,
+  'Locked' => '已锁定',
 
   // src/applications/passphrase/controller/PassphraseCredentialViewController.php:101
   'Locked Permanently' => null,
 
   // src/applications/project/controller/PhabricatorProjectMembersViewController.php:94
-  'Locked Project' => null,
+  'Locked Project' => '已锁定项目',
 
   // src/applications/daemon/management/PhabricatorDaemonManagementStatusWorkflow.php:40
-  'Log' => null,
+  'Log' => '日志',
 
   // src/applications/auth/engine/PhabricatorAuthInviteEngine.php:91
   // src/applications/auth/engine/PhabricatorAuthInviteEngine.php:101
@@ -21033,7 +21033,7 @@ return array(
   'Looking for new commits.' => null,
 
   // src/applications/project/controller/PhabricatorProjectManageController.php:135
-  'Looks Like' => null,
+  'Looks Like' => '看起来像',
 
   // src/applications/people/conduit/UserFindConduitAPIMethod.php:18
   'Lookup PHIDs by username. Obsoleted by "%s".' => null,
@@ -22659,7 +22659,7 @@ return array(
   'New Blueprint' => null,
 
   // src/applications/releeph/controller/branch/ReleephBranchCreateController.php:113
-  'New Branch' => null,
+  'New Branch' => '新分支',
 
   // src/applications/herald/controller/HeraldRuleController.php:198
   'New Condition' => null,
@@ -22673,7 +22673,7 @@ return array(
   // src/applications/phriction/controller/PhrictionController.php:12
   // src/applications/phriction/controller/PhrictionController.php:42
   // src/applications/phriction/controller/PhrictionNewController.php:48
-  'New Document' => null,
+  'New Document' => '新文档',
 
   // src/applications/project/controller/PhabricatorProjectBoardViewController.php:969
   'New Empty Board' => null,
@@ -22695,41 +22695,41 @@ return array(
 
   // src/applications/dashboard/controller/PhabricatorDashboardPanelEditController.php:255
   // src/applications/dashboard/controller/PhabricatorDashboardPanelEditController.php:364
-  'New Panel' => null,
+  'New Panel' => '新面板',
 
   // src/applications/settings/panel/PhabricatorPasswordSettingsPanel.php:173
   'New Password' => '新密码',
 
   // src/applications/phriction/controller/PhrictionMoveController.php:97
-  'New Path' => null,
+  'New Path' => '新路径',
 
   // src/applications/releeph/controller/product/ReleephProductCreateController.php:103
-  'New Product' => null,
+  'New Product' => '新产品',
 
   // src/applications/releeph/controller/request/ReleephRequestEditController.php:287
   // src/applications/releeph/controller/branch/ReleephBranchViewController.php:63
   'New Pull Request' => null,
 
   // src/applications/ponder/mail/PonderQuestionCreateMailReceiver.php:21
-  'New Question' => null,
+  'New Question' => '新问题',
 
   // src/applications/repository/query/PhabricatorRepositorySearchEngine.php:256
-  'New Repository' => null,
+  'New Repository' => '新代码库',
 
   // src/applications/conpherence/controller/ConpherenceNewRoomController.php:8
   // src/applications/conpherence/controller/ConpherenceController.php:19
   // src/applications/conpherence/controller/ConpherenceController.php:44
   // src/applications/conpherence/controller/ConpherenceController.php:52
-  'New Room' => null,
+  'New Room' => '新房间',
 
   // src/applications/policy/controller/PhabricatorPolicyEditController.php:206
-  'New Rule' => null,
+  'New Rule' => '新规则',
 
   // src/applications/herald/controller/HeraldNewController.php:227
   'New Rule for' => null,
 
   // src/applications/settings/controller/PhabricatorSettingsTimezoneController.php:96
-  'New Setting' => null,
+  'New Setting' => '新设置',
 
   // src/applications/dashboard/controller/PhabricatorDashboardEditController.php:236
   'New Simple Dashboard' => null,
@@ -28641,7 +28641,7 @@ return array(
   'Reclaim unused resources.' => null,
 
   // src/applications/drydock/logtype/DrydockResourceReclaimLogType.php:8
-  'Reclaimed' => null,
+  'Reclaimed' => '已重认领',
 
   // src/applications/drydock/logtype/DrydockLeaseReclaimLogType.php:8
   'Reclaimed Resources' => null,
@@ -39901,7 +39901,7 @@ return array(
   'Untitled Story' => null,
 
   // src/applications/maniphest/mail/ManiphestReplyHandler.php:29
-  'Untitled Task' => null,
+  'Untitled Task' => '未命名任务',
 
   // src/applications/harbormaster/controller/HarbormasterPlanViewController.php:311
   'Unused Output' => null,
@@ -39920,13 +39920,13 @@ return array(
   // src/applications/project/controller/PhabricatorProjectWatchController.php:96
   // src/applications/project/controller/PhabricatorProjectProfileController.php:183
   // src/applications/project/controller/PhabricatorProjectMembersViewController.php:226
-  'Unwatch Project' => null,
+  'Unwatch Project' => '取消关注项目',
 
   // src/applications/project/controller/PhabricatorProjectWatchController.php:92
-  'Unwatch Project?' => null,
+  'Unwatch Project?' => '取消关注项目？',
 
   // src/applications/config/controller/PhabricatorConfigClusterDatabasesController.php:107
-  'Up to Date' => null,
+  'Up to Date' => '最新的',
 
   // src/applications/countdown/query/PhabricatorCountdownSearchEngine.php:53
   'Upcoming' => null,
@@ -39971,7 +39971,7 @@ return array(
   'Update Frequency' => null,
 
   // src/applications/diffusion/management/DiffusionRepositoryStatusManagementPanel.php:45
-  'Update Now' => null,
+  'Update Now' => '现在更新',
 
   // src/applications/people/controller/PhabricatorPeopleInviteSendController.php:199
   'Update Preview' => null,
@@ -39983,17 +39983,17 @@ return array(
   'Update Revision' => null,
 
   // src/applications/conpherence/controller/ConpherenceUpdateController.php:415
-  'Update Room' => null,
+  'Update Room' => '更新房间',
 
   // src/applications/phortune/controller/PhortuneCartViewController.php:94
   // src/applications/phortune/controller/PhortuneCartViewController.php:309
-  'Update Status' => null,
+  'Update Status' => '更新状态',
 
   // src/applications/maniphest/controller/ManiphestBatchEditController.php:190
-  'Update Tasks' => null,
+  'Update Tasks' => '更新任务',
 
   // src/applications/phlux/controller/PhluxEditController.php:148
-  'Update Variable' => null,
+  'Update Variable' => '更新变量',
 
   // src/applications/repository/management/PhabricatorRepositoryManagementUpdateWorkflow.php:23
   'Update __repository__. This performs the __pull__, __discover__, __refs__ and __mirror__ operations and is primarily an internal workflow.' => null,
@@ -41510,7 +41510,7 @@ return array(
   'Weekly' => null,
 
   // src/applications/maniphest/editor/ManiphestEditEngine.php:57
-  'Weigh In' => '参加',
+  'Weigh In' => '参与',
 
   // src/applications/phriction/controller/PhrictionDocumentController.php:45
   // src/applications/dashboard/controller/PhabricatorDashboardEditController.php:242
