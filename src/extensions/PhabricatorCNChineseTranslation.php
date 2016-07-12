@@ -19856,22 +19856,22 @@ return array(
 
   // src/applications/calendar/controller/PhabricatorCalendarEventJoinController.php:76
   // src/applications/conpherence/controller/ConpherenceViewController.php:163
-  'Join' => null,
+  'Join' => '加入',
 
   // src/applications/calendar/controller/PhabricatorCalendarEventJoinController.php:74
   // src/applications/calendar/controller/PhabricatorCalendarEventViewController.php:200
-  'Join Event' => null,
+  'Join Event' => '加入事件',
 
   // src/applications/policy/editor/PhabricatorPolicyEditEngineExtension.php:64
-  'Join Policy' => null,
+  'Join Policy' => '加入规则',
 
   // src/applications/project/controller/PhabricatorProjectUpdateController.php:101
   // src/applications/project/controller/PhabricatorProjectUpdateController.php:105
   // src/applications/project/controller/PhabricatorProjectMembersViewController.php:202
-  'Join Project' => null,
+  'Join Project' => '加入项目',
 
   // src/applications/conpherence/view/ConpherenceThreadListView.php:113
-  'Join a Room' => null,
+  'Join a Room' => '加入房间',
 
   // src/applications/project/__tests__/PhabricatorProjectCoreTestCase.php:698
   'Join allowed with edit permission.' => null,
@@ -19886,23 +19886,23 @@ return array(
   'Join this project? You will become a member and enjoy whatever benefits membership may confer.' => null,
 
   // src/applications/project/__tests__/PhabricatorProjectCoreTestCase.php:637
-  'Join works.' => null,
+  'Join works.' => '加入工作。',
 
   // src/view/form/control/AphrontFormPolicyControl.php:80
   // src/applications/project/controller/PhabricatorProjectMembersViewController.php:121
   'Joinable By' => null,
 
   // src/applications/project/query/PhabricatorProjectSearchEngine.php:91
-  'Joined' => null,
+  'Joined' => '已加入',
 
   // src/applications/people/query/PhabricatorPeopleSearchEngine.php:89
-  'Joined After' => null,
+  'Joined After' => '已加入后',
 
   // src/applications/people/query/PhabricatorPeopleSearchEngine.php:94
-  'Joined Before' => null,
+  'Joined Before' => '已加入前',
 
   // src/applications/conpherence/query/ConpherenceThreadSearchEngine.php:62
-  'Joined Rooms' => null,
+  'Joined Rooms' => '已加入的房间',
 
   // src/applications/project/__tests__/PhabricatorProjectCoreTestCase.php:648
   'Joining an already-joined project is a no-op.' => null,
@@ -20385,10 +20385,10 @@ return array(
   // src/applications/project/controller/PhabricatorProjectUpdateController.php:90
   // src/applications/project/controller/PhabricatorProjectUpdateController.php:94
   // src/applications/project/controller/PhabricatorProjectMembersViewController.php:210
-  'Leave Project' => null,
+  'Leave Project' => '退出项目',
 
   // src/applications/conpherence/controller/ConpherenceUpdateController.php:354
-  'Leave Room' => null,
+  'Leave Room' => '退出房间',
 
   // src/applications/project/__tests__/PhabricatorProjectCoreTestCase.php:725
   'Leave allowed without any permission.' => null,
@@ -20406,7 +20406,7 @@ return array(
   'Leave this blank to use your installation\'s default.' => null,
 
   // src/applications/project/__tests__/PhabricatorProjectCoreTestCase.php:659
-  'Leave works.' => null,
+  'Leave works.' => '退出工作。',
 
   // src/applications/auth/controller/PhabricatorAuthDowngradeSessionController.php:30
   'Leaving High Security' => null,
