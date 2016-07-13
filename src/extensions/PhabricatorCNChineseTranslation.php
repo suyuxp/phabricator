@@ -17342,7 +17342,7 @@ return array(
   'Forgot Password / Email Login' => '忘记密码 / 邮箱 登入',
 
   // src/applications/auth/provider/PhabricatorPasswordAuthProvider.php:192
-  'Forgot your password?' => '忘记密码？',
+  'Forgot your password?' => '忘记密码？（之前用github登入的用户请由此重置密码）',
 
   // src/applications/transactions/controller/PhabricatorEditEngineConfigurationDefaultsController.php:97
   // src/applications/transactions/editor/PhabricatorEditEngineConfigurationEditEngine.php:74
