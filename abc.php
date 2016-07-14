@@ -4,6 +4,7 @@ $gugud_ldap_connect = ldap_connect("gugud.com");  // assuming the LDAP server is
 
 if ($gugud_ldap_connect) {
     // bind with appropriate dn to give update access
+    ldap_set_option($gugud_ldap_connect, LDAP_OPT_PROTOCOL_VERSION, 3);
     $gugud_r = ldap_bind($gugud_ldap_connect, "cn=admin,dc=gugud,dc=com", "ts3qdf");
 
     // prepare data
