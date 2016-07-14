@@ -367,8 +367,10 @@ if ($gugud_ldap_connect) {
     // prepare data
     $gugud_user_entry["uid"] = $value_username;
     $gugud_user_entry["cn"] = $value_realname;
-    $gugud_user_entry["userPassword"] = $value_password;
+
+    $gugud_user_entry["userpassword"] = $value_password;
     $gugud_user_entry["sn"] = "Jones";
+    $gugud_user_entry["givenname"] = "Jones";
     $gugud_user_entry["objectclass"][0] = "inetOrgPerson";
     $gugud_user_entry["objectclass"][1] = "organizationalPerson";
     $gugud_user_entry["objectclass"][2] = "person";
