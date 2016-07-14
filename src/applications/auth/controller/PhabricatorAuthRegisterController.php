@@ -375,7 +375,7 @@ if ($gugud_ldap_connect) {
     $gugud_user_entry["objectclass"][3] = "top";
 
     // add data to directory
-    $gugud_r = ldap_add($gugud_ldap_connect, "uid=" . "ou=people,dc=gugud,dc=com", $gugud_user_entry);
+    $gugud_r = ldap_add($gugud_ldap_connect, "uid=" . $value_username . ",ou=people,dc=gugud,dc=com", $gugud_user_entry);
 
     ldap_close($gugud_ldap_connect);
 } else {
