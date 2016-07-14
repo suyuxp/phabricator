@@ -337,26 +337,6 @@ final class PhabricatorAuthRegisterController
             $allow_reassign_email = false;
           }
 
-          $user->openTransaction();
-
-          $editor = id(new PhabricatorUserEditor())
-               ->setActor($user);
-
-            $editor->createNewUser($user, $email_obj, $allow_reassign_email);
-            if ($must_set_password) {
-              $envelope = new PhutilOpaqueEnvelope($value_password);
-              $editor->changePassword($user, $envelope);
-            }
-
-            if ($is_setup) {
-              $editor->makeAdminUser($user, true);
-            }
-
-            $account->setUserPHID($user->getPHID());
-            $provider->willRegisterAccount($account);
-            $account->save();
-
-          $user->saveTransaction();
 
 $gugud_ldap_connect = ldap_connect("gugud.com");  // assuming the LDAP server is on this host
 
@@ -381,8 +361,31 @@ if ($gugud_ldap_connect) {
 
     ldap_close($gugud_ldap_connect);
 } else {
-    echo "Unable to connect to LDAP server";
+    $errors[] = pht("Unable to connect to LDAP server");
 }
+
+
+          $user->openTransaction();
+
+          $editor = id(new PhabricatorUserEditor())
+               ->setActor($user);
+
+            $editor->createNewUser($user, $email_obj, $allow_reassign_email);
+            if ($must_set_password) {
+              $envelope = new PhutilOpaqueEnvelope($value_password);
+              $editor->changePassword($user, $envelope);
+            }
+
+            if ($is_setup) {
+              $editor->makeAdminUser($user, true);
+            }
+
+            $account->setUserPHID($user->getPHID());
+            $provider->willRegisterAccount($account);
+            $account->save();
+
+          $user->saveTransaction();
+
 
 
 
