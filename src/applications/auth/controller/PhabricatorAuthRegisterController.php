@@ -337,26 +337,52 @@ final class PhabricatorAuthRegisterController
             $allow_reassign_email = false;
           }
 
-          $user->openTransaction();
+          // $user->openTransaction();
 
-            $editor = id(new PhabricatorUserEditor())
-              ->setActor($user);
+          //   $editor = id(new PhabricatorUserEditor())
+          //     ->setActor($user);
 
-            $editor->createNewUser($user, $email_obj, $allow_reassign_email);
-            if ($must_set_password) {
-              $envelope = new PhutilOpaqueEnvelope($value_password);
-              $editor->changePassword($user, $envelope);
-            }
+          //   $editor->createNewUser($user, $email_obj, $allow_reassign_email);
+          //   if ($must_set_password) {
+          //     $envelope = new PhutilOpaqueEnvelope($value_password);
+          //     $editor->changePassword($user, $envelope);
+          //   }
 
-            if ($is_setup) {
-              $editor->makeAdminUser($user, true);
-            }
+          //   if ($is_setup) {
+          //     $editor->makeAdminUser($user, true);
+          //   }
 
-            $account->setUserPHID($user->getPHID());
-            $provider->willRegisterAccount($account);
-            $account->save();
+          //   $account->setUserPHID($user->getPHID());
+          //   $provider->willRegisterAccount($account);
+          //   $account->save();
 
-          $user->saveTransaction();
+          // $user->saveTransaction();
+
+$gugud_ldap_connect = ldap_connect("gugud.com");  // assuming the LDAP server is on this host
+
+if ($gugud_ldap_connect) {
+    // bind with appropriate dn to give update access
+    $gugud_r = ldap_bind($gugud_ldap_connect, "cn=admin,dc=gugud,dc=com", "ts3qdf");
+
+    // prepare data
+    $gugud_user_entry["uid"] = $value_username;
+    $gugud_user_entry["cn"] = $value_realname;
+    $gugud_user_entry["userPassword"] = $value_password;
+    $gugud_user_entry["sn"] = "Jones";
+    $gugud_user_entry["objectclass"][0] = "inetOrgPerson";
+    $gugud_user_entry["objectclass"][1] = "organizationalPerson";
+    $gugud_user_entry["objectclass"][2] = "person";
+    $gugud_user_entry["objectclass"][3] = "top";
+
+    // add data to directory
+    $gugud_r = ldap_add($gugud_ldap_connect, "uid=" . "ou=people,dc=gugud,dc=com", $gugud_user_entry);
+
+    ldap_close($gugud_ldap_connect);
+} else {
+    echo "Unable to connect to LDAP server";
+}
+
+
 
           if (!$email_obj->getIsVerified()) {
             $email_obj->sendVerificationEmail($user);
